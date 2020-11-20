@@ -21,6 +21,7 @@ after the work is done
 * numpy
 * torch
 * torchvision
+* janggu
 
 Installation by pip
 
