@@ -20,8 +20,8 @@ after the work is done
 * future
 * numpy
 * torch
-* torchvision
-* janggu
+* torchvisio
+* h5py
 
 Installation by pip
 
