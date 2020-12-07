@@ -15,14 +15,20 @@ after the work is done
     1. $ deactivate
     2. leave the virtual env.
 
-## Required library
+## Directory Structure
 
-* future
-* numpy
+dataloader.py
+
+## Required librariess
+
 * torch
-* torchvisio
+* torchvision
 * h5py
 
 Installation by pip
 
     $ pip install [library name] 
+
+Confirmation of libraries
+
+    $ pip list
