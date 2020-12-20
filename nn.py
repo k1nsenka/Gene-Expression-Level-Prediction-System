@@ -3,6 +3,7 @@ import torch
 import torch.nn as nn
 #import chainer.functions as F
 import torch.nn.functional as f
+import numpy as np
 
 
 import blocks
@@ -32,36 +33,84 @@ default_dilated_params = [
 
 
 class Net(nn.Module):
-    def __init__(self, squeeze_params=default_squeeze_params, dilated_params=default_dilated_params, n_targets=10):
+    def __init__(self, squeeze_params=default_squeeze_params, dilated_params=default_dilated_params, n_targets=4229):
         super(Net, self).__init__()
         self._n_squeeze = len(squeeze_params)
         self._n_dilated = len(dilated_params)
-        with self.init_scope():
-            in_ch = 4
-            for i, param in enumerate(squeeze_params):
-                out_ch, kernel, stride, do_rate = param
-                setattr(self, "s_{}".format(i), SqueezeBlock(in_ch, out_ch, kernel, stride, do_rate))
-                in_ch = out_ch
-            for i, param in enumerate(dilated_params):
-                out_ch, kernel, dilated, do_rate = param
-                setattr(self, "d_{}".format(i), DilatedBlock(in_ch, out_ch, kernel, dilated, do_rate))
-                in_ch += out_ch
-            self.l = nn.Conv1d(in_ch, n_targets, 1)
+        #squeez
+        #Squeez Block 0
+        in_ch = 4
+        out_ch = bc*2
+        self.s_0 = blocks.SqueezeBlock(in_ch, out_ch, 21, 2, 0)
+        in_ch = out_ch
+        #Squeez Block 1
+        out_ch = int(bc*2.5)
+        self.s_1 = blocks.SqueezeBlock(in_ch, out_ch, 7, 4, 0.05)
+        in_ch = out_ch
+        #Squeez Block 2
+        out_ch = int(bc*3.2)
+        self.s_2 = blocks.SqueezeBlock(in_ch, out_ch, 7, 4, 0.05)
+        in_ch = out_ch
+        #Squeez Block 3
+        out_ch = bc*4
+        self.s_3 = blocks.SqueezeBlock(in_ch, out_ch, 7, 4, 0.05)
+        in_ch = out_ch
+
+        #dilated
+        out_ch = bc
+        #Dilated Block 0
+        self.d_0 = blocks.DilatedBlock(in_ch, out_ch, 3, 1, 0.1)
+        in_ch += out_ch
+        #Dilated Block 1
+        self.d_1 = blocks.DilatedBlock(in_ch, out_ch, 3, 2, 0.1)
+        in_ch += out_ch
+        #Dilated Block 2
+        self.d_2 = blocks.DilatedBlock(in_ch, out_ch, 3, 4, 0.1)
+        in_ch += out_ch
+        #Dilated Block 3
+        self.d_3 = blocks.DilatedBlock(in_ch, out_ch, 3, 8, 0.1)
+        in_ch += out_ch
+        #Dilated Block 4
+        self.d_4 = blocks.DilatedBlock(in_ch, out_ch, 3, 16, 0.1)
+        in_ch += out_ch
+        #Dilated Block 5
+        self.d_5 = blocks.DilatedBlock(in_ch, out_ch, 3, 32, 0.1)
+        in_ch += out_ch
+        #Dilated Block 6
+        self.d_6 = blocks.DilatedBlock(in_ch, out_ch, 3, 64, 0.1)
+        in_ch += out_ch
+
+        self.l = nn.Conv1d(264, n_targets, 1)
 
     def forward(self, x):
         # x : (B, X, 4)
         xp = torch.Tensor(x)
-        h = xp.numpy().transpose(0, 2, 1)
-        h = h.astype(xp.float32)
+        h = xp.transpose(2, 1)
+        #squeez
+        h1 = self.s_0(h)
+        h2 = self.s_1(h1)
+        h3 = self.s_2(h2)
+        h4 = self.s_3(h3)
+        #dilated
+        hs = [h4]
+        hs0 = self.d_0(hs)
+        hs.append(hs0)
+        hs1 = self.d_1(hs)
+        hs.append(hs1)
+        hs2 = self.d_2(hs)
+        hs.append(hs2)
+        hs3 = self.d_3(hs)
+        hs.append(hs3)
+        hs4 = self.d_4(hs)
+        hs.append(hs4)
+        hs5 = self.d_5(hs)
+        hs.append(hs5)
+        hs6 = self.d_6(hs)
+        hs.append(hs6)
+        #last
+        hsl = torch.cat(hs, dim=1)
+        print(hsl.shape)
 
-        for i in range(self._n_squeeze):
-            h = self["s_{}".format(i)](h)
-
-        hs = [h]
-        for i in range(self._n_dilated):
-            h = self["d_{}".format(i)](hs)
-            hs.append(h)
-
-        h = self.l(torch.cat(hs, axis=1))
-        h = xp.numpy().transpose(0, 2, 1)
+        h = self.l(hsl)
+        h = h.transpose(2, 1)
         return h
