@@ -18,8 +18,6 @@ class PreprocessedDataset(torch.utils.data.Dataset):
 
         x = self.xs[i]
         y = self.ys[i]
-
-
         s = random.randint(-self.max_shift, self.max_shift)
         x = np.roll(x, s, axis=0)
         return x, y
