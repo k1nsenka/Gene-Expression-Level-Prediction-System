@@ -6,17 +6,18 @@ Deep learningを用いた遺伝子発現量の予測システム(GELPS)
 
 
 ## Activate Virtual Environment
-before the work
 
-    1. move to work space.
-    2. (first time only)`$ python3 -m venv [environment name]`
-    3.  `$ source [environment name]/bin/activate`
-    4. into the virtual env.
+### before the work
 
-after the work is done
+1. move to work space.
+2. (first time only)`$ python3 -m venv [environment name]`
+3.  `$ source [environment name]/bin/activate`
+ 4. into the virtual env.
 
-    1. `$ deactivate`
-    2. leave the virtual env.
+### after the work is done
+
+1. `$ deactivate`
+2. leave the virtual env.
 
 ## Directory Structure
 
