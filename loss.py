@@ -11,3 +11,6 @@ def log_poisson_loss(log_x, t):
     #lossの最小値が0になるようにoffsetを引き算している。
     offset = torch.mean(cp.array(t - t * np.ma.log(t)))
     return loss - offset
+
+def log_r2_score(log_x, t):
+    return sklearn.metrics.r2_score(torch.exp(log_x), t)
