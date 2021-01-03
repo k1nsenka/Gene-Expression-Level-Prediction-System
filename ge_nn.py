@@ -1,12 +1,10 @@
 import torch
-#import chainer.links as L
 import torch.nn as nn
-#import chainer.functions as F
 import torch.nn.functional as f
 import numpy as np
 
 
-import blocks
+import ge_blocks
 
 
 bc = 24 # base channel
@@ -41,43 +39,43 @@ class Net(nn.Module):
         #Squeez Block 0
         in_ch = 4
         out_ch = bc*2
-        self.s_0 = blocks.SqueezeBlock(in_ch, out_ch, 21, 2, 0)
+        self.s_0 = ge_blocks.SqueezeBlock(in_ch, out_ch, 21, 2, 0)
         in_ch = out_ch
         #Squeez Block 1
         out_ch = int(bc*2.5)
-        self.s_1 = blocks.SqueezeBlock(in_ch, out_ch, 7, 4, 0.05)
+        self.s_1 = ge_blocks.SqueezeBlock(in_ch, out_ch, 7, 4, 0.05)
         in_ch = out_ch
         #Squeez Block 2
         out_ch = int(bc*3.2)
-        self.s_2 = blocks.SqueezeBlock(in_ch, out_ch, 7, 4, 0.05)
+        self.s_2 = ge_blocks.SqueezeBlock(in_ch, out_ch, 7, 4, 0.05)
         in_ch = out_ch
         #Squeez Block 3
         out_ch = bc*4
-        self.s_3 = blocks.SqueezeBlock(in_ch, out_ch, 7, 4, 0.05)
+        self.s_3 = ge_blocks.SqueezeBlock(in_ch, out_ch, 7, 4, 0.05)
         in_ch = out_ch
 
         #dilated
         out_ch = bc
         #Dilated Block 0
-        self.d_0 = blocks.DilatedBlock(in_ch, out_ch, 3, 1, 0.1)
+        self.d_0 = ge_blocks.DilatedBlock(in_ch, out_ch, 3, 1, 0.1)
         in_ch += out_ch
         #Dilated Block 1
-        self.d_1 = blocks.DilatedBlock(in_ch, out_ch, 3, 2, 0.1)
+        self.d_1 = ge_blocks.DilatedBlock(in_ch, out_ch, 3, 2, 0.1)
         in_ch += out_ch
         #Dilated Block 2
-        self.d_2 = blocks.DilatedBlock(in_ch, out_ch, 3, 4, 0.1)
+        self.d_2 = ge_blocks.DilatedBlock(in_ch, out_ch, 3, 4, 0.1)
         in_ch += out_ch
         #Dilated Block 3
-        self.d_3 = blocks.DilatedBlock(in_ch, out_ch, 3, 8, 0.1)
+        self.d_3 = ge_blocks.DilatedBlock(in_ch, out_ch, 3, 8, 0.1)
         in_ch += out_ch
         #Dilated Block 4
-        self.d_4 = blocks.DilatedBlock(in_ch, out_ch, 3, 16, 0.1)
+        self.d_4 = ge_blocks.DilatedBlock(in_ch, out_ch, 3, 16, 0.1)
         in_ch += out_ch
         #Dilated Block 5
-        self.d_5 = blocks.DilatedBlock(in_ch, out_ch, 3, 32, 0.1)
+        self.d_5 = ge_blocks.DilatedBlock(in_ch, out_ch, 3, 32, 0.1)
         in_ch += out_ch
         #Dilated Block 6
-        self.d_6 = blocks.DilatedBlock(in_ch, out_ch, 3, 64, 0.1)
+        self.d_6 = ge_blocks.DilatedBlock(in_ch, out_ch, 3, 64, 0.1)
         in_ch += out_ch
 
         self.l = nn.Conv1d(264, n_targets, 1)

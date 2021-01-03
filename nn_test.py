@@ -1,10 +1,10 @@
 import numpy as np
 
-import nn
+
+import ge_nn
 
 
-
-n = nn.Net()
+n = ge_nn.Net()
 #print(n)
 size = 131072 # 128 * 1024
 batchsize = 4
