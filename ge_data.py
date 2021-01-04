@@ -34,7 +34,7 @@ class testdataset(torch.utils.data.Dataset):
     def __len__(self):
         return len(self.xs)
 
-    def __getitem __(self, i):
+    def __getitem__(self, i):
         x = self.xs[i]
         y = self.ys[i]
         return x, y

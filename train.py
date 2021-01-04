@@ -12,8 +12,8 @@ import ge_loss
 import ge_nn
 
 print('opening file ...')
-#ml_h5 = h5py.File('/Users/nemomac/Nextcloud/dataset/l131k_w128.h5')
-ml_h5 = h5py.File('/home/abe/data/genome_data/seq.h5')
+ml_h5 = h5py.File('/home/abe/data/genome_data/l131k_w128.h5')
+#ml_h5 = h5py.File('/home/abe/data/genome_data/seq.h5')
 #ml_h5 = h5py.File('/Users/nemomac/gelp/dataset/seq.h5')
 
 print('importing data ...')
@@ -33,20 +33,20 @@ train_in = train_in[:len(train_in)//ratio]
 train_in = train_in.astype(np.float32)
 train_out = train_out[:len(train_out)//ratio]
 train_out = train_out.astype(np.float32)
+print('training data done ...')
 valid_in = valid_in[:len(valid_in)//ratio]
 valid_in = valid_in.astype(np.float32)
 valid_out = valid_out[:len(valid_out)//ratio]
 valid_out = valid_out.astype(np.float32)
-
+print('valid data done ...')
 
 print('calling dataloader ...')
 max_shift_for_data_augmentation = 5
 train = ge_data.testdataset(train_in, train_out)
 val = ge_data.testdataset(valid_in, valid_out)
-batchsize = 1024
+batchsize = 512
 train_iter = DataLoader(train, batchsize)
 val_iter = DataLoader(val, batchsize, shuffle=False)
-
 
 
 ####################################################################
