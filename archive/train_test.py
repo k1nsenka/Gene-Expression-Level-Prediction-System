@@ -12,20 +12,20 @@ import ge_loss
 import ge_nn
 
 print('opening file ...')
-#ml_h5 = h5py.File('/Users/nemomac/Nextcloud/dataset/l131k_w128.h5')
-ml_h5 = h5py.File('/home/abe/data/genome_data/seq.h5')
-#ml_h5 = h5py.File('/Users/nemomac/gelp/dataset/seq.h5')
-
 print('importing data ...')
-train_in = ml_h5['train_in']
-train_out = ml_h5['train_out']
+print('importing data ...')
+train_in = np.empty((4, 131072, 4), dtype=np.bool)
+#print(train_in.dtype)
 print('training data done ...')
-valid_in = ml_h5['valid_in']
-valid_out = ml_h5['valid_out']
+#ge_nnのn_targetも変える↓
+train_out = np.empty((4, 1024, 10), dtype=np.float32)
 print('valid data done ...')
 
-#test_in = ml_h5['test_in']
-#test_out = ml_h5['test_out']
+valid_in = np.empty((4, 131072, 4), dtype=np.bool)
+valid_out = np.empty((4, 1024, 10), dtype=np.float32)
+
+test_in = []
+test_out = []
 
 print('transform data ...')
 ratio = 1
@@ -43,7 +43,7 @@ print('calling dataloader ...')
 max_shift_for_data_augmentation = 5
 train = ge_data.testdataset(train_in, train_out)
 val = ge_data.testdataset(valid_in, valid_out)
-batchsize = 1024
+batchsize = 64
 train_iter = DataLoader(train, batchsize)
 val_iter = DataLoader(val, batchsize, shuffle=False)
 
@@ -63,7 +63,7 @@ loss_fun2 = nn.MSELoss()
 train_model.train()
 for epoch in range(n_epochs):
     print('Epoch {}/{}'.format(epoch+1, n_epochs))
-    print('------------------------------------------------')
+    print('------------')
     for train_in, train_out in train_iter:
         #変数定義
         batch_loss = 0.0
@@ -80,8 +80,4 @@ for epoch in range(n_epochs):
         loss.backward()
         optimizer.step()
         batch_loss += loss
-        print('{} poissonLoss: {:.4f} mseLoss: {:.4f} Acc: {:.4f}'.format(epoch+1, batch_loss, mse_loss, batch_acc))
-    print('------------------------------------------------')
-    print('{} poissonLoss: {:.4f} mseLoss: {:.4f} Acc: {:.4f}'.format(epoch+1, batch_loss, mse_loss, batch_acc))
-    print('------------------------------------------------')
-    print('------------------------------------------------')
+    print('{} poissonLoss: {:.4f} mseLoss: {:.4f} Acc: {:.4f}'.format(epoch, batch_loss, mse_loss, batch_acc))

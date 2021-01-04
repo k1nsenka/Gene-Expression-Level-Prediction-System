@@ -31,7 +31,7 @@ default_dilated_params = [
 
 
 class Net(nn.Module):
-    def __init__(self, squeeze_params=default_squeeze_params, dilated_params=default_dilated_params, n_targets=4229):
+    def __init__(self, squeeze_params=default_squeeze_params, dilated_params=default_dilated_params, n_targets=10):
         super(Net, self).__init__()
         self._n_squeeze = len(squeeze_params)
         self._n_dilated = len(dilated_params)
@@ -82,8 +82,7 @@ class Net(nn.Module):
 
     def forward(self, x):
         # x : (B, X, 4)
-        xp = torch.Tensor(x)
-        h = xp.transpose(2, 1)
+        h = x.transpose(2, 1)
         #squeez
         h1 = self.s_0(h)
         h2 = self.s_1(h1)
@@ -107,7 +106,7 @@ class Net(nn.Module):
         hs.append(hs6)
         #last
         hsl = torch.cat(hs, dim=1)
-        print(hsl.shape)
+        #print(hsl.shape)
 
         h = self.l(hsl)
         h = h.transpose(2, 1)
