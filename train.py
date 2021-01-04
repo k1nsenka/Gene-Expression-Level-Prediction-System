@@ -85,3 +85,4 @@ for epoch in range(n_epochs):
     print('{} poissonLoss: {:.4f} mseLoss: {:.4f} Acc: {:.4f}'.format(epoch+1, batch_loss, mse_loss, batch_acc))
     print('------------------------------------------------')
     print('------------------------------------------------')
+    torch.save(train_model.state_dict(), "./params/model.pth")
