@@ -52,7 +52,7 @@ def ge_train(data, n_device, lr, n_epochs, batchsize, beta1, beta2, model_dir):
             train_model.zero_grad()
             loss.backward()
             optimizer.step()
-            batch_loss += loss.item()
+            batch_loss += loss
             batch_acc += acc
             t2 = time.time()
             #print('{} batch{} poissonLoss: {:.4f} mseLoss: {:.4f} Acc: {:.4f} time {}'.format(epoch+1, counter,  loss, mse_loss, acc, t2-t1))
