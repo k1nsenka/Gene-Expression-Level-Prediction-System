@@ -19,7 +19,7 @@ def log_poisson_loss(log_x, t):
 def log_r2_score(log_x, t):
     t = t.to("cpu")
     log_x = log_x.to("cpu")
-    #x = torch.exp(log_x)
+    x = torch.exp(log_x)
     x = log_x
 
     size = t.size(0)
@@ -36,9 +36,7 @@ def log_r2_score(log_x, t):
         #print(t_num)
         #print(x_num)
         t_num = t_num.detach().numpy()
-        t_num = t_num.astype(np.float16)
         x_num = x_num.detach().numpy()
-        x_num = x_num.astype(np.float16)
         #print(t_num.shape)
         #print(x_num.shape)
         #print(t_num)
