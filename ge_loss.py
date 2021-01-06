@@ -4,7 +4,7 @@ import torch.nn as nn
 import math
 import sklearn
 import numpy as np
-import cupy as cp
+#import cupy as cp
 
 from sklearn.metrics import r2_score
 

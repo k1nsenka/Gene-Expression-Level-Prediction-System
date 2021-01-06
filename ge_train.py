@@ -13,7 +13,7 @@ import ge_loss
 import ge_nn
 
 
-def ge_train(data, n_device, lr, n_epochs, batchsize, beta1, beta2, model_dir):
+def ge_train_fun(data, n_device, lr, n_epochs, batchsize, beta1, beta2, model_dir):
     print('calling dataloader ...')
     train = ge_data.ge_train_dataset(data)
     val = ge_data.ge_train_dataset(data)

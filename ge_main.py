@@ -1,13 +1,14 @@
 import h5py
 
 
-import train
+import ge_train
 
 
 #データ
 data = h5py.File('/home/abe/data/genome_data/l131k_w128.h5')
-#ml_h5 = h5py.File('/home/abe/data/genome_data/seq.h5')
-#ml_h5 = h5py.File('/Users/nemomac/gelp/dataset/seq.h5')
+#data = h5py.File('/home/abe/data/genome_data/seq.h5')
+#data = h5py.File('/Users/nemomac/gelp/dataset/seq.h5')
+#data = h5py.File('/Users/nemomac/gelp/dataset/l131k_w128.h5')
 
 #使用GPU
 n_device = 1
@@ -29,6 +30,6 @@ beta2 = 0.98
 model_dir = 'params'
 
 #学習実行
-train_test.ge_train(data, n_device, lr, n_epochs, batchsize, beta1, beta2, model_dir)
+ge_train.ge_train_fun(data, n_device, lr, n_epochs, batchsize, beta1, beta2, model_dir)
 
 #モデル評価
