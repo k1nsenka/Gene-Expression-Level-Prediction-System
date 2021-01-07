@@ -31,7 +31,7 @@ default_dilated_params = [
 
 
 class Net(nn.Module):
-    def __init__(self, squeeze_params=default_squeeze_params, dilated_params=default_dilated_params, n_targets=4229):
+    def __init__(self, squeeze_params=default_squeeze_params, dilated_params=default_dilated_params, n_targets=10):
         super(Net, self).__init__()
         self._n_squeeze = len(squeeze_params)
         self._n_dilated = len(dilated_params)
