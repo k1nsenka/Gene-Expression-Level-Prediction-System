@@ -143,11 +143,11 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_optim, model_dir, 
     train_set = ge_data.ge_train_dataset(data)
     train_iter = DataLoader(train_set, batchsize)
     #モデル定義
-    train_model = ge_nn.Net()
+    ge_model = ge_nn.Net()
     device_str = "cuda:{}".format(n_device)
     device = torch.device(device_str if torch.cuda.is_available() else "cpu")
     print("used device : ", device)
-    train_model.to(device)
+    ge_model.to(device)
     #最適化手法
     if n_optim == 0:
         optimizer = optim.Adam(train_model.parameters())
@@ -179,7 +179,6 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_optim, model_dir, 
     fraction = 1/k_fold
     seg = int(total_size * fraction)
 
-    train_model.train()
     #print('epoch poissonLoss mseLoss Acc')
     for i in range(k_fold):
         trll = 0
@@ -188,62 +187,52 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_optim, model_dir, 
         valr = i * seg + seg
         trrl = valr
         trrr = total_size
-        # msg
-        #  print("train indices: [%d,%d),[%d,%d), test indices: [%d,%d)" 
-        #       % (trll,trlr,trrl,trrr,vall,valr))
-        
         train_left_indices = list(range(trll,trlr))
         train_right_indices = list(range(trrl,trrr))
-        
         train_indices = train_left_indices + train_right_indices
         val_indices = list(range(vall,valr))
-        
+        #データセットをサブセットに分ける
         train_set = Subset(train_set,train_indices)
         val_set = Subset(train_set,val_indices)
-        
-        #print(len(train_set),len(val_set))
-        #print()
-        
+        #交差検証用のtrain, validデータをロード
         train_loader = DataLoader(train_set, batch_size=50, shuffle=True, num_workers=4)
         val_loader = DataLoader(val_set, batch_size=50, shuffle=True, num_workers=4)
-        
-        train_acc = train(res_model,criterion,optimizer,train_loader,epoch=1)
-        train_score.at[i] = train_acc
-        val_acc = valid(res_model,criterion,optimizer,val_loader)
-        val_score.at[i] = val_acc
-    
-    for epoch in range(n_epochs):
-        counter = 0
-        batch_loss = 0.0
-        batch_acc = 0.0
-        print('Epoch {}/{}'.format(epoch+1, n_epochs))
-        print('------------------------------------------------')
-        for train_in, train_out in tqdm(train_iter):
+        for epoch in range(n_epochs):
             t1 = time.time()
-            counter = counter + 1
-            #変数定義
-            #モデル入力
-            train_in = train_in.to(device)
-            train_out = train_out.to(device)
-            out = train_model(train_in)
-            #損失計算
-            loss = loss_fun(out, train_out)
-            mse_loss = loss_fun2(out, train_out)
-            #acc = ge_loss.log_r2_score(out, train_out)
-            acc = 0.0
-            train_model.zero_grad()
-            loss.backward()
-            optimizer.step()
-            batch_loss += loss
-            batch_acc += acc
+            counter = 0
+            batch_loss = 0.0
+            batch_acc = 0.0
+            print('Epoch {}/{}'.format(epoch+1, n_epochs))
+            print('------------------------------------------------')
+            ge_model.train()
+            for train_in, train_out in tqdm(train_loader):
+                counter = counter + 1
+                #変数定義
+                #モデル入力
+                train_in = train_in.to(device)
+                train_out = train_out.to(device)
+                out = ge_model(train_in)
+                #損失計算
+                loss = loss_fun(out, train_out)
+                mse_loss = loss_fun2(out, train_out)
+                #acc = ge_loss.log_r2_score(out, train_out)
+                acc = 0.0
+                ge_model.zero_grad()
+                loss.backward()
+                optimizer.step()
+                batch_loss += loss
+                batch_acc += acc
+                t2 = time.time()
+                #print('{} batch{} poissonLoss: {:.4f} mseLoss: {:.4f} Acc: {:.4f} time {}'.format(epoch+1, counter,  loss, mse_loss, acc, t2-t1))
+            print('------------------------------------------------')
+            epoch_loss = batch_loss / batchsize
+            epoch_acc = batch_acc / batchsize
             t2 = time.time()
-            print('{} batch{} poissonLoss: {:.4f} mseLoss: {:.4f} Acc: {:.4f} time {}'.format(epoch+1, counter,  loss, mse_loss, acc, t2-t1))
-        print('------------------------------------------------')
-        epoch_loss = batch_loss / batchsize
-        epoch_acc = batch_acc / batchsize
-        print('{} {:.4f} {:.4f} {:.4f}'.format(epoch+1, epoch_loss, mse_loss, epoch_acc))
-        print('------------------------------------------------')
-        print('------------------------------------------------')
+            print('{} poissonLoss: {:.4f} mseLoss: {:.4f} Acc: {:.4f} time {}'.format(epoch+1, epoch_loss, mse_loss, epoch_acc, t2-t1))
+            #print('{} {:.4f} {:.4f} {:.4f}'.format(epoch+1, epoch_loss, mse_loss, epoch_acc))
+            print('------------------------------------------------')
+            print('------------------------------------------------')
+
         #torch.save(train_model.state_dict(), "./" + model_dir + "/model_optim{}_epoch{}.pth".format(n_optim, epoch))
 
 
