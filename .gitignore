@@ -178,4 +178,4 @@ venv.bak/
 
 # torch checkpoint
 *.pth
-/train_result_optim/*.csv
+#/train_result_optim/*.csv
