@@ -43,5 +43,7 @@ def ge_test_fun(data, n_device, batchsize, n_targets, model_path):
         avr_test_loss = np.average(test_loss)
         #avr_test_score = 
     print('test data loss:{}, test r2 score:'.format(avr_test_loss))
+    with open('train_log.txt', 'a') as f:
+        f.write('test data loss:{}, test r2 score:'.format(avr_test_loss))
 
 

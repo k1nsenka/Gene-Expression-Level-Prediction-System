@@ -52,6 +52,8 @@ class EarlyStopping:
 
 def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold):
     print('calling dataloader ...')
+    with open('train_log.txt', 'a') as f:
+        f.write('calling dataloader ...')
     #モデル読み込み
     train_set = ge_data.ge_train_dataset(data)
     #train_iter = DataLoader(train_set, batchsize)
@@ -117,13 +119,17 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold):
             avg_train_losses.append(train_loss)
             avg_valid_losses.append(valid_loss)
             print('fold: {}/{} epoch: {}/{} train_loss: {:.6f} valid_loss: {:.6f}'.format(_fold+1, k_fold, epoch+1, n_epochs, train_loss, valid_loss))
+            with open('train_log.txt', 'a') as f:
+                f.write('fold: {}/{} epoch: {}/{} train_loss: {:.6f} valid_loss: {:.6f}'.format(_fold+1, k_fold, epoch+1, n_epochs, train_loss, valid_loss))
             #次のエポックのためにリセットする
             train_losses = []
             valid_losses = []
             #earlystopping
             early_stopping(valid_loss, ge_model, path='./model_checkpoint/checkpoint_fold{}.pth'.format(_fold))
             if early_stopping.early_stop:
-                print("Early stopping")
+                print('Early stopping')
+                with open('train_log.txt', 'a') as f:
+                    f.write('Early stopping')
                 break
         #損失の平均をとる
         kfold_train_loss = np.average(avg_train_losses)
@@ -149,6 +155,8 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold):
         plt.tight_layout()
         plt.show()
         fig.savefig('./loss_plot/loss_plot_fold{}.png'.format(_fold), bbox_inches='tight')
+        with open('train_log.txt', 'a') as f:
+            f.write('fold{}, graph ploted'.format(_fold))
     print(avg_kfold_train_loss)
     print(avg_kfold_valid_loss)
     with open('./kfold_loss/kfold_train_loss.csv', 'w') as ft :

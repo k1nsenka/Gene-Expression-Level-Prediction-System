@@ -45,3 +45,6 @@ ge_test.ge_test_fun(data, n_device, batchsize, n_targets, model_path)
 
 t2 = time.time()
 print('time :{}'.format(t2-t1))
+
+with open('train_log.txt', 'a') as f:
+    f.write('time :{}'.format(t2-t1))
