@@ -33,7 +33,6 @@ batchsize = 64
 #交差検証分割数
 k_fold = 6
 
-t1 = time.time()
 
 bestmodel_number = ge_train.ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold)
 print(bestmodel_number)
@@ -43,8 +42,3 @@ model_path = './model_checkpoint/checkpoint_fold{}.pth'.format(bestmodel_number)
 #モデル評価
 ge_test.ge_test_fun(data, n_device, batchsize, n_targets, model_path)
 
-t2 = time.time()
-print('time :{}'.format(t2-t1))
-
-with open('train_log.txt', 'a') as f:
-    f.write('time :{}'.format(t2-t1))

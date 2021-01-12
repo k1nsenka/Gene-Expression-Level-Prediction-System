@@ -1,0 +1,6 @@
+calling dataloader ...
+fold0 start
+fold: 1/6 epoch: 1/200 train_loss: 0.457533 valid_loss: 0.402207
+save model
+fold: 1/6 epoch: 2/200 train_loss: 0.397398 valid_loss: 0.395035
+save model

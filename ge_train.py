@@ -48,18 +48,20 @@ class EarlyStopping:
             self.trace_func(f'Validation loss decreased ({self.val_loss_min:.6f} --> {val_loss:.6f}).  Saving model ...')
         torch.save(model.state_dict(), path)
         self.val_loss_min = val_loss
+        with open('train_log.txt', 'a') as f:
+            f.write('save model\n')
 
 
 def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold):
     print('calling dataloader ...')
     with open('train_log.txt', 'a') as f:
-        f.write('calling dataloader ...')
+        f.write('calling dataloader ...\n')
     #モデル読み込み
     train_set = ge_data.ge_train_dataset(data)
     #train_iter = DataLoader(train_set, batchsize)
-    device_str = "cuda:{}".format(n_device)
+    device_str = 'cuda:{}'.format(n_device)
     device = torch.device(device_str if torch.cuda.is_available() else "cpu")
-    print("used device : ", device)
+    print('used device : ', device)
     #損失関数
     loss_fun = nn.PoissonNLLLoss()
     #foldごとの学習の損失
@@ -69,6 +71,8 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold):
     #交差検証用
     kf = KFold(n_splits = k_fold)
     for  _fold, (train_index, val_index) in enumerate(kf.split(train_set)):
+        with open('train_log.txt', 'a') as f:
+            f.write('fold{} start\n'.format(_fold))
         #交差検証用のtrain, validデータをロード
         train_loader = DataLoader(Subset(train_set,train_index), batch_size=batchsize, shuffle=True, num_workers=os.cpu_count())
         val_loader = DataLoader(Subset(train_set,val_index), batch_size=batchsize, shuffle=True, num_workers=os.cpu_count())
@@ -120,7 +124,7 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold):
             avg_valid_losses.append(valid_loss)
             print('fold: {}/{} epoch: {}/{} train_loss: {:.6f} valid_loss: {:.6f}'.format(_fold+1, k_fold, epoch+1, n_epochs, train_loss, valid_loss))
             with open('train_log.txt', 'a') as f:
-                f.write('fold: {}/{} epoch: {}/{} train_loss: {:.6f} valid_loss: {:.6f}'.format(_fold+1, k_fold, epoch+1, n_epochs, train_loss, valid_loss))
+                f.write('fold: {}/{} epoch: {}/{} train_loss: {:.6f} valid_loss: {:.6f}\n'.format(_fold+1, k_fold, epoch+1, n_epochs, train_loss, valid_loss))
             #次のエポックのためにリセットする
             train_losses = []
             valid_losses = []
@@ -129,7 +133,7 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold):
             if early_stopping.early_stop:
                 print('Early stopping')
                 with open('train_log.txt', 'a') as f:
-                    f.write('Early stopping')
+                    f.write('Early stopping\n')
                 break
         #損失の平均をとる
         kfold_train_loss = np.average(avg_train_losses)
@@ -156,7 +160,7 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold):
         plt.show()
         fig.savefig('./loss_plot/loss_plot_fold{}.png'.format(_fold), bbox_inches='tight')
         with open('train_log.txt', 'a') as f:
-            f.write('fold{}, graph ploted'.format(_fold))
+            f.write('fold{}, graph ploted\n'.format(_fold))
     print(avg_kfold_train_loss)
     print(avg_kfold_valid_loss)
     with open('./kfold_loss/kfold_train_loss.csv', 'w') as ft :
