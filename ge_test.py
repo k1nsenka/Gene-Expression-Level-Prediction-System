@@ -57,7 +57,7 @@ def ge_test_fun(data, n_device, batchsize, n_targets, model_path):
 def ge_test_plot_fun(data, n_device, batchsize, n_targets, model_path):
     #データロード
     test_set = ge_data.ge_test_dataset(data)
-    test_loader = DataLoader(test_set, batch_size = batchsize, shuffle=True, num_workers=50)
+    test_loader = DataLoader(test_set, batch_size = batchsize, shuffle=False, num_workers=50)
     device_str = "cuda:{}".format(n_device)
     device = torch.device(device_str if torch.cuda.is_available() else "cpu")
     print("used device : ", device)

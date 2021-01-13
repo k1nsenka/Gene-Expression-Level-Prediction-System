@@ -25,6 +25,7 @@ n_device = int(args[1])
 batchsize = 1
 
 
+#model_path = './mse/checkpoint_fold_mse.pth'
 model_path = './model_checkpoint/checkpoint_fold0.pth'
 
 #モデル評価

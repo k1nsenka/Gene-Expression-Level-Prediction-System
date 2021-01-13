@@ -173,6 +173,101 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold):
     return n_bestmodel_fold
 
 
+def ge_train_fun_mse(data, n_device, n_epochs, batchsize, n_targets):
+    print('calling dataloader ...')
+    with open('train_log.txt', 'a') as f:
+        f.write('calling dataloader ...\n')
+    #モデル読み込み
+    train_set = ge_data.ge_train_dataset(data)
+    val_set = ge_data.ge_valid_dataset(data)
+    device_str = 'cuda:{}'.format(n_device)
+    device = torch.device(device_str if torch.cuda.is_available() else "cpu")
+    print('used device : ', device)
+    #損失関数
+    loss_fun = nn.MSELoss()
+    #train, validデータをロード
+    train_loader = DataLoader(train_set, batch_size=batchsize, shuffle=True, num_workers=80)
+    val_loader = DataLoader(val_set, batch_size=batchsize, shuffle=True, num_workers=80)
+    #バッチごと学習の損失を追う
+    train_losses = []
+    #バッチごと検証の損失を追う
+    valid_losses = []
+    #epochごとの学習の損失
+    avg_train_losses = []
+    #epochごとの検証の損失
+    avg_valid_losses = []
+    #モデル定義
+    ge_model = ge_nn.Net(n_targets=n_targets)
+    ge_model.to(device)
+    #最適化手法の選択
+    optimizer = optim.Adam(ge_model.parameters())
+    # initialize the early_stopping object
+    early_stopping = EarlyStopping(verbose=True)
+    for epoch in range(n_epochs):
+        #学習
+        ge_model.train()
+        for train_in, train_out in tqdm(train_loader):
+            #モデル入力
+            train_in,  train_out = train_in.to(device), train_out.to(device)
+            out = ge_model(train_in)
+            #損失計算
+            loss = loss_fun(out, train_out)
+            ge_model.zero_grad()
+            loss.backward()
+            optimizer.step()
+            #損失記録
+            train_losses.append(loss.item())
+        #検証
+        ge_model.eval()
+        for valid_in, valid_out in tqdm(val_loader):
+            #モデル入力
+            valid_in = valid_in.to(device)
+            valid_out = valid_out.to(device)
+            out = ge_model(valid_in)
+            #損失計算
+            loss = loss_fun(out, valid_out)
+            #損失記録
+            valid_losses.append(loss.item())
+        #損失の平均をとる
+        train_loss = np.average(train_losses)
+        valid_loss = np.average(valid_losses)
+        #エポックごとの損失を保存していく
+        avg_train_losses.append(train_loss)
+        avg_valid_losses.append(valid_loss)
+        print('epoch: {}/{} train_loss: {:.6f} valid_loss: {:.6f}'.format(epoch+1, n_epochs, train_loss, valid_loss))
+        with open('train_log.txt', 'a') as f:
+            f.write('epoch: {}/{} train_loss: {:.6f} valid_loss: {:.6f}\n'.format(epoch+1, n_epochs, train_loss, valid_loss))
+        #次のエポックのためにリセットする
+        train_losses = []
+        valid_losses = []
+        #earlystopping
+        early_stopping(valid_loss, ge_model, path='./mse/checkpoint_fold_mse.pth')
+        if early_stopping.early_stop:
+            print('Early stopping')
+            with open('train_log.txt', 'a') as f:
+                f.write('Early stopping\n')
+            break
+    #一番いいモデルをロードする。
+    #ge_model.load_state_dict(torch.load('./model_checkpoint/checkpoint_fold{}.pth'.format(_fold)))
+    #学習状況を可視化
+    fig = plt.figure(figsize=(10,8))
+    plt.plot(range(1, len(avg_train_losses)+1), avg_train_losses, label='Training Loss')
+    plt.plot(range(1, len(avg_valid_losses)+1), avg_valid_losses, label='Validation Loss')
+    #validlossの最低を検索する->earlystoppingに利用する
+    minposs = avg_valid_losses.index(min(avg_valid_losses)) + 1
+    plt.axvline(minposs, linestyle='--', color='r',label='Early Stopping Checkpoint')
+    plt.xlabel('epochs')
+    plt.ylabel('loss')
+    plt.ylim(0, 0.5) # consistent scale
+    plt.xlim(0, len(avg_train_losses)+1) # consistent scale
+    plt.grid(True)
+    plt.legend()
+    plt.tight_layout()
+    fig.savefig('./mse/loss_plot_mse.png', bbox_inches='tight')
+    with open('train_log.txt', 'a') as f:
+        f.write('graph ploted\n')
+
+
 def ge_train_fun_optim(data, n_device, n_epochs, batchsize, n_optim, model_dir):
     #print('calling dataloader ...')
     #モデル読み込み
