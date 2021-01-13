@@ -41,6 +41,6 @@ def log_r2_score(log_x, t):
         #print(x_num.shape)
         #print(t_num)
         #print(x_num)
-        score = r2_score(x_num, t_num)
+        score = r2_score(x_num, t_num, multioutput='variance_weighted')
         all_score += score
     return all_score / size

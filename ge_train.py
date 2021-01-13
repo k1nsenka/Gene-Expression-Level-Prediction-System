@@ -74,8 +74,8 @@ def ge_train_fun_kfold(data, n_device, n_epochs, batchsize, n_targets, k_fold):
         with open('train_log.txt', 'a') as f:
             f.write('fold{} start\n'.format(_fold))
         #交差検証用のtrain, validデータをロード
-        train_loader = DataLoader(Subset(train_set,train_index), batch_size=batchsize, shuffle=True, num_workers=os.cpu_count())
-        val_loader = DataLoader(Subset(train_set,val_index), batch_size=batchsize, shuffle=True, num_workers=os.cpu_count())
+        train_loader = DataLoader(Subset(train_set,train_index), batch_size=batchsize, shuffle=True, num_workers=16)
+        val_loader = DataLoader(Subset(train_set,val_index), batch_size=batchsize, shuffle=True, num_workers=16)
         #バッチごと学習の損失を追う
         train_losses = []
         #バッチごと検証の損失を追う
