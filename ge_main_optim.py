@@ -6,8 +6,9 @@ import ge_train
 
 
 #データ
-data = h5py.File('/home/abe/data/genome_data/l131k_w128.h5')
-#data = h5py.File('/home/abe/data/genome_data/seq.h5')
+#ここを買えたらge_nnのn_targetsの数を変更してくださいseq->10, l131k_w128->4229
+#data = h5py.File('/home/abe/data/genome_data/l131k_w128.h5')
+data = h5py.File('/home/abe/data/genome_data/seq.h5')
 #data = h5py.File('/Users/nemomac/gelp/dataset/seq.h5')
 #data = h5py.File('/Users/nemomac/gelp/dataset/l131k_w128.h5')
 
@@ -20,7 +21,7 @@ n_device = int(args[1])
 #lr = 0.001
 
 #エポック数
-n_epochs = 100
+n_epochs = 2
 
 #バッチサイズ
 batchsize = 128

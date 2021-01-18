@@ -23,7 +23,6 @@ def log_r2_score(log_x, t):
     x = log_x
 
     size = t.size(0)
-    #print(size)
     t_temp = torch.chunk(t, size, dim=0)
     x_temp = torch.chunk(x, size, dim=0)
 
@@ -31,16 +30,25 @@ def log_r2_score(log_x, t):
     for i in range(size):
         t_num = torch.squeeze(t_temp[i])
         x_num = torch.squeeze(x_temp[i])
-        #print(t_num.shape)
-        #print(x_num.shape)
-        #print(t_num)
-        #print(x_num)
         t_num = t_num.detach().numpy()
         x_num = x_num.detach().numpy()
-        #print(t_num.shape)
-        #print(x_num.shape)
-        #print(t_num)
-        #print(x_num)
-        score = r2_score(x_num, t_num)
+        score = r2_score(x_num, t_num, multioutput='variance_weighted')
         all_score += score
     return all_score / size
+
+def pearsonR(output, target):
+    x = output
+    y = target
+
+    vx = x - torch.mean(x)
+    vy = y - torch.mean(y)
+    cost = torch.sum(vx * vy) / (torch.sqrt(torch.sum(vx ** 2)) * torch.sqrt(torch.sum(vy ** 2)))
+    #cost = vx * vy * torch.rsqrt(torch.sum(vx ** 2)) * torch.rsqrt(torch.sum(vy ** 2))
+    return cost
+
+
+def smoothing(output, target):
+    window = 20 # 移動平均の範囲
+    w = np.ones(window)/window
+    sample_avr = np.convolve(sample_raw, w, mode='same')
+    return sample_avr

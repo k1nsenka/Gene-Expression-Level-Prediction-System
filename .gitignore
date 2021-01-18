@@ -177,6 +177,5 @@ venv.bak/
 .mypy_cache/
 
 # torch checkpoint
-*.pth
-#/train_result_optim/*.csv
-/result/result_graph/*.png
+/archive/poissonloss/*.pth
+/archive/train_result_optim/*.csv

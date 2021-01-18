@@ -1,0 +1,72 @@
+calling dataloader ...
+calling dataloader ...
+epoch: 1/2 train_loss: 11.777699 valid_loss: 11.971119
+calling dataloader ...
+epoch: 1/400 train_loss: 11.399299 valid_loss: 11.626819
+save model
+epoch: 2/400 train_loss: 10.544551 valid_loss: 11.516060
+save model
+epoch: 3/400 train_loss: 10.363691 valid_loss: 11.223360
+save model
+epoch: 4/400 train_loss: 10.243309 valid_loss: 11.021886
+save model
+epoch: 5/400 train_loss: 9.952824 valid_loss: 10.553978
+save model
+epoch: 6/400 train_loss: 9.609149 valid_loss: 10.079306
+save model
+epoch: 7/400 train_loss: 9.473213 valid_loss: 10.041191
+save model
+epoch: 8/400 train_loss: 9.374072 valid_loss: 10.133328
+epoch: 9/400 train_loss: 9.322393 valid_loss: 10.056797
+epoch: 10/400 train_loss: 9.219908 valid_loss: 9.767727
+save model
+epoch: 11/400 train_loss: 9.164716 valid_loss: 9.906905
+epoch: 12/400 train_loss: 9.115896 valid_loss: 9.903548
+epoch: 13/400 train_loss: 9.123462 valid_loss: 9.725203
+save model
+epoch: 14/400 train_loss: 9.111349 valid_loss: 9.994869
+epoch: 15/400 train_loss: 9.040721 valid_loss: 9.831979
+epoch: 16/400 train_loss: 8.990792 valid_loss: 9.767628
+epoch: 17/400 train_loss: 9.025810 valid_loss: 9.516632
+save model
+epoch: 18/400 train_loss: 8.968937 valid_loss: 9.562860
+epoch: 19/400 train_loss: 8.964258 valid_loss: 9.624741
+epoch: 20/400 train_loss: 8.915189 valid_loss: 9.763629
+epoch: 21/400 train_loss: 8.916084 valid_loss: 9.626010
+epoch: 22/400 train_loss: 8.874475 valid_loss: 9.485199
+save model
+epoch: 23/400 train_loss: 8.863283 valid_loss: 9.715290
+epoch: 24/400 train_loss: 8.865209 valid_loss: 9.542935
+epoch: 25/400 train_loss: 8.856971 valid_loss: 9.803420
+epoch: 26/400 train_loss: 8.816864 valid_loss: 9.563195
+epoch: 27/400 train_loss: 8.809945 valid_loss: 9.446213
+save model
+epoch: 28/400 train_loss: 8.791060 valid_loss: 9.586382
+epoch: 29/400 train_loss: 8.767452 valid_loss: 9.642633
+epoch: 30/400 train_loss: 8.791492 valid_loss: 9.496349
+epoch: 31/400 train_loss: 8.745618 valid_loss: 9.460243
+epoch: 32/400 train_loss: 8.727984 valid_loss: 9.385256
+save model
+epoch: 33/400 train_loss: 8.767438 valid_loss: 9.590008
+epoch: 34/400 train_loss: 8.728087 valid_loss: 9.512252
+epoch: 35/400 train_loss: 8.689887 valid_loss: 9.621021
+epoch: 36/400 train_loss: 8.681705 valid_loss: 9.870742
+epoch: 37/400 train_loss: 8.674566 valid_loss: 9.366934
+save model
+epoch: 38/400 train_loss: 8.626475 valid_loss: 9.521420
+epoch: 39/400 train_loss: 8.610766 valid_loss: 9.206432
+save model
+epoch: 40/400 train_loss: 8.594503 valid_loss: 9.454836
+epoch: 41/400 train_loss: 8.551665 valid_loss: 9.199206
+save model
+epoch: 42/400 train_loss: 8.521287 valid_loss: 9.103439
+save model
+epoch: 43/400 train_loss: 8.524744 valid_loss: 9.361001
+epoch: 44/400 train_loss: 8.503708 valid_loss: 9.229991
+epoch: 45/400 train_loss: 8.473873 valid_loss: 9.312006
+epoch: 46/400 train_loss: 8.470941 valid_loss: 9.203092
+epoch: 47/400 train_loss: 8.452883 valid_loss: 9.229183
+epoch: 48/400 train_loss: 8.441370 valid_loss: 9.384995
+epoch: 49/400 train_loss: 8.433430 valid_loss: 9.202572
+Early stopping
+graph ploted

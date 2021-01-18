@@ -28,7 +28,6 @@ dataloader.py
 * torch
 * torchvision
 * h5py
-
 ... e.t.c.
 
 ### Installation by pip
