@@ -17,7 +17,7 @@ import ge_loss
 def ge_test_fun(data, n_device, batchsize, n_targets, model_path):
     #データロード
     test_set = ge_data.ge_test_dataset(data)
-    test_loader = DataLoader(test_set, batch_size = batchsize, shuffle=True, num_workers=50)
+    test_loader = DataLoader(test_set, batch_size = batchsize, shuffle=False, num_workers=50)
     device_str = "cuda:{}".format(n_device)
     device = torch.device(device_str if torch.cuda.is_available() else "cpu")
     print("used device : ", device)
@@ -143,3 +143,46 @@ def ge_test_plot_fun(data, n_device, batchsize, n_targets, model_path):
         avr_test_loss = np.average(test_loss)
         avr_test_score = np.average(test_score)
     print('test data loss:{}, test r2 score:{}'.format(avr_test_loss, avr_test_score))
+
+
+def ge_test_peason_fun(data, n_device, batchsize, n_targets, model_path):
+    #データロード
+    test_set = ge_data.ge_test_dataset(data)
+    test_loader = DataLoader(test_set, batch_size = batchsize, shuffle=False, num_workers=50)
+    device_str = "cuda:{}".format(n_device)
+    device = torch.device(device_str if torch.cuda.is_available() else "cpu")
+    print("used device : ", device)
+    #損失関数
+    loss_fun = nn.PoissonNLLLoss()
+    #モデルの読み込み
+    test_model = ge_nn.Net(n_targets=n_targets)
+    test_model.to(device)
+    test_model.load_state_dict(torch.load(model_path))
+    test_model.eval()
+    #損失の記録
+    test_loss = []
+    test_score = []
+    count = 0
+    with torch.no_grad():
+        for (test_in, test_out) in test_loader:
+            #モデル入力
+            test_in,  test_out = test_in.to(device), test_out.to(device)
+            out = test_model(test_in)
+            #損失計算
+            loss = loss_fun(out, test_out)
+            test_loss.append(loss.item()))
+            #グラフ描画
+            out = torch.exp(out)
+            #平滑化
+            
+            #相関係数算出
+            test_out = test_out.to("cpu")
+            out = out.to("cpu")
+            
+
+
+            avr_test_loss = np.average(test_loss)
+            avr_test_score = np.average(test_score)
+    print('test data loss:{}, pearson correlation coeffient:{}'.format(avr_test_loss, avr_test_score))
+    with open('train_log.txt', 'a') as f:
+        f.write('test data loss:{}, test r2 score:{}'.format(avr_test_loss, avr_test_score))

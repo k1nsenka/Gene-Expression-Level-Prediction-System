@@ -35,3 +35,20 @@ def log_r2_score(log_x, t):
         score = r2_score(x_num, t_num, multioutput='variance_weighted')
         all_score += score
     return all_score / size
+
+def pearsonR(output, target):
+    x = output
+    y = target
+
+    vx = x - torch.mean(x)
+    vy = y - torch.mean(y)
+    cost = torch.sum(vx * vy) / (torch.sqrt(torch.sum(vx ** 2)) * torch.sqrt(torch.sum(vy ** 2)))
+    #cost = vx * vy * torch.rsqrt(torch.sum(vx ** 2)) * torch.rsqrt(torch.sum(vy ** 2))
+    return cost
+
+
+def smoothing(output, target):
+    window = 20 # 移動平均の範囲
+    w = np.ones(window)/window
+    sample_avr = np.convolve(sample_raw, w, mode='same')
+    return sample_avr
