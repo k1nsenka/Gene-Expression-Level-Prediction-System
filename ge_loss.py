@@ -36,19 +36,29 @@ def log_r2_score(log_x, t):
         all_score += score
     return all_score / size
 
-def pearsonR(output, target):
-    x = output
-    y = target
-
-    vx = x - torch.mean(x)
-    vy = y - torch.mean(y)
-    cost = torch.sum(vx * vy) / (torch.sqrt(torch.sum(vx ** 2)) * torch.sqrt(torch.sum(vy ** 2)))
-    #cost = vx * vy * torch.rsqrt(torch.sum(vx ** 2)) * torch.rsqrt(torch.sum(vy ** 2))
+def pearsonR(output, target, n_targets):
+    cost = []
+    for i in range(n_targets):
+        x = output[i]
+        y = target[i]
+        vx = x - torch.mean(x)
+        vy = y - torch.mean(y)
+        cost_temp = torch.sum(vx * vy) / (torch.sqrt(torch.sum(vx ** 2)) * torch.sqrt(torch.sum(vy ** 2)))
+        #cost = vx * vy * torch.rsqrt(torch.sum(vx ** 2)) * torch.rsqrt(torch.sum(vy ** 2))
+        cost_temp= cost_temp.detach().numpy()
+        cost.append(cost_temp)
     return cost
 
 
-def smoothing(output, target):
-    window = 20 # 移動平均の範囲
+def smoothing(sample_raw, n_targets):
+    #移動平均の範囲
+    window = 20
+    #w:(1024)
     w = np.ones(window)/window
-    sample_avr = np.convolve(sample_raw, w, mode='same')
-    return sample_avr
+    #(1024, n_targets)
+    avr_data = []
+    for i in range(n_targets):
+        sample = sample_raw[:, i]
+        sample_avr = np.convolve(sample, w, mode='same')
+        avr_data.append(sample_avr)
+    return avr_data
