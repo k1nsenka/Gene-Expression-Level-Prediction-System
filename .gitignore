@@ -183,3 +183,4 @@ venv.bak/
 #test data
 /smoothing/out/*.csv
 /smoothing/test_out/*.csv
+/smoothing/*.csv
