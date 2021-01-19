@@ -1,0 +1,4572 @@
+data1:squeez
+data1:smoothing
+data1:detach
+data1:smoothing csv write
+data1:smoothing csv write 2
+data1:pearson
+data2:squeez
+data2:smoothing
+data2:detach
+data2:smoothing csv write
+data2:smoothing csv write 2
+data2:pearson
+data3:squeez
+data3:smoothing
+data3:detach
+data3:smoothing csv write
+data3:smoothing csv write 2
+data3:pearson
+data4:squeez
+data4:smoothing
+data4:detach
+data4:smoothing csv write
+data4:smoothing csv write 2
+data4:pearson
+data5:squeez
+data5:smoothing
+data5:detach
+data5:smoothing csv write
+data5:smoothing csv write 2
+data5:pearson
+data6:squeez
+data6:smoothing
+data6:detach
+data6:smoothing csv write
+data6:smoothing csv write 2
+data6:pearson
+data7:squeez
+data7:smoothing
+data7:detach
+data7:smoothing csv write
+data7:smoothing csv write 2
+data7:pearson
+data8:squeez
+data8:smoothing
+data8:detach
+data8:smoothing csv write
+data8:smoothing csv write 2
+data8:pearson
+data9:squeez
+data9:smoothing
+data9:detach
+data9:smoothing csv write
+data9:smoothing csv write 2
+data9:pearson
+data10:squeez
+data10:smoothing
+data10:detach
+data10:smoothing csv write
+data10:smoothing csv write 2
+data10:pearson
+data11:squeez
+data11:smoothing
+data11:detach
+data11:smoothing csv write
+data11:smoothing csv write 2
+data11:pearson
+data12:squeez
+data12:smoothing
+data12:detach
+data12:smoothing csv write
+data12:smoothing csv write 2
+data12:pearson
+data13:squeez
+data13:smoothing
+data13:detach
+data13:smoothing csv write
+data13:smoothing csv write 2
+data13:pearson
+data14:squeez
+data14:smoothing
+data14:detach
+data14:smoothing csv write
+data14:smoothing csv write 2
+data14:pearson
+data15:squeez
+data15:smoothing
+data15:detach
+data15:smoothing csv write
+data15:smoothing csv write 2
+data15:pearson
+data16:squeez
+data16:smoothing
+data16:detach
+data16:smoothing csv write
+data16:smoothing csv write 2
+data16:pearson
+data17:squeez
+data17:smoothing
+data17:detach
+data17:smoothing csv write
+data17:smoothing csv write 2
+data17:pearson
+data18:squeez
+data18:smoothing
+data18:detach
+data18:smoothing csv write
+data18:smoothing csv write 2
+data18:pearson
+data19:squeez
+data19:smoothing
+data19:detach
+data19:smoothing csv write
+data19:smoothing csv write 2
+data19:pearson
+data20:squeez
+data20:smoothing
+data20:detach
+data20:smoothing csv write
+data20:smoothing csv write 2
+data20:pearson
+data21:squeez
+data21:smoothing
+data21:detach
+data21:smoothing csv write
+data21:smoothing csv write 2
+data21:pearson
+data22:squeez
+data22:smoothing
+data22:detach
+data22:smoothing csv write
+data22:smoothing csv write 2
+data22:pearson
+data23:squeez
+data23:smoothing
+data23:detach
+data23:smoothing csv write
+data23:smoothing csv write 2
+data23:pearson
+data24:squeez
+data24:smoothing
+data24:detach
+data24:smoothing csv write
+data24:smoothing csv write 2
+data24:pearson
+data25:squeez
+data25:smoothing
+data25:detach
+data25:smoothing csv write
+data25:smoothing csv write 2
+data25:pearson
+data26:squeez
+data26:smoothing
+data26:detach
+data26:smoothing csv write
+data26:smoothing csv write 2
+data26:pearson
+data27:squeez
+data27:smoothing
+data27:detach
+data27:smoothing csv write
+data27:smoothing csv write 2
+data27:pearson
+data28:squeez
+data28:smoothing
+data28:detach
+data28:smoothing csv write
+data28:smoothing csv write 2
+data28:pearson
+data29:squeez
+data29:smoothing
+data29:detach
+data29:smoothing csv write
+data29:smoothing csv write 2
+data29:pearson
+data30:squeez
+data30:smoothing
+data30:detach
+data30:smoothing csv write
+data30:smoothing csv write 2
+data30:pearson
+data31:squeez
+data31:smoothing
+data31:detach
+data31:smoothing csv write
+data31:smoothing csv write 2
+data31:pearson
+data32:squeez
+data32:smoothing
+data32:detach
+data32:smoothing csv write
+data32:smoothing csv write 2
+data32:pearson
+data33:squeez
+data33:smoothing
+data33:detach
+data33:smoothing csv write
+data33:smoothing csv write 2
+data33:pearson
+data34:squeez
+data34:smoothing
+data34:detach
+data34:smoothing csv write
+data34:smoothing csv write 2
+data34:pearson
+data35:squeez
+data35:smoothing
+data35:detach
+data35:smoothing csv write
+data35:smoothing csv write 2
+data35:pearson
+data36:squeez
+data36:smoothing
+data36:detach
+data36:smoothing csv write
+data36:smoothing csv write 2
+data36:pearson
+data37:squeez
+data37:smoothing
+data37:detach
+data37:smoothing csv write
+data37:smoothing csv write 2
+data37:pearson
+data38:squeez
+data38:smoothing
+data38:detach
+data38:smoothing csv write
+data38:smoothing csv write 2
+data38:pearson
+data39:squeez
+data39:smoothing
+data39:detach
+data39:smoothing csv write
+data39:smoothing csv write 2
+data39:pearson
+data40:squeez
+data40:smoothing
+data40:detach
+data40:smoothing csv write
+data40:smoothing csv write 2
+data40:pearson
+data41:squeez
+data41:smoothing
+data41:detach
+data41:smoothing csv write
+data41:smoothing csv write 2
+data41:pearson
+data42:squeez
+data42:smoothing
+data42:detach
+data42:smoothing csv write
+data42:smoothing csv write 2
+data42:pearson
+data43:squeez
+data43:smoothing
+data43:detach
+data43:smoothing csv write
+data43:smoothing csv write 2
+data43:pearson
+data44:squeez
+data44:smoothing
+data44:detach
+data44:smoothing csv write
+data44:smoothing csv write 2
+data44:pearson
+data45:squeez
+data45:smoothing
+data45:detach
+data45:smoothing csv write
+data45:smoothing csv write 2
+data45:pearson
+data46:squeez
+data46:smoothing
+data46:detach
+data46:smoothing csv write
+data46:smoothing csv write 2
+data46:pearson
+data47:squeez
+data47:smoothing
+data47:detach
+data47:smoothing csv write
+data47:smoothing csv write 2
+data47:pearson
+data48:squeez
+data48:smoothing
+data48:detach
+data48:smoothing csv write
+data48:smoothing csv write 2
+data48:pearson
+data49:squeez
+data49:smoothing
+data49:detach
+data49:smoothing csv write
+data49:smoothing csv write 2
+data49:pearson
+data50:squeez
+data50:smoothing
+data50:detach
+data50:smoothing csv write
+data50:smoothing csv write 2
+data50:pearson
+data51:squeez
+data51:smoothing
+data51:detach
+data51:smoothing csv write
+data51:smoothing csv write 2
+data51:pearson
+data52:squeez
+data52:smoothing
+data52:detach
+data52:smoothing csv write
+data52:smoothing csv write 2
+data52:pearson
+data53:squeez
+data53:smoothing
+data53:detach
+data53:smoothing csv write
+data53:smoothing csv write 2
+data53:pearson
+data54:squeez
+data54:smoothing
+data54:detach
+data54:smoothing csv write
+data54:smoothing csv write 2
+data54:pearson
+data55:squeez
+data55:smoothing
+data55:detach
+data55:smoothing csv write
+data55:smoothing csv write 2
+data55:pearson
+data56:squeez
+data56:smoothing
+data56:detach
+data56:smoothing csv write
+data56:smoothing csv write 2
+data56:pearson
+data57:squeez
+data57:smoothing
+data57:detach
+data57:smoothing csv write
+data57:smoothing csv write 2
+data57:pearson
+data58:squeez
+data58:smoothing
+data58:detach
+data58:smoothing csv write
+data58:smoothing csv write 2
+data58:pearson
+data59:squeez
+data59:smoothing
+data59:detach
+data59:smoothing csv write
+data59:smoothing csv write 2
+data59:pearson
+data60:squeez
+data60:smoothing
+data60:detach
+data60:smoothing csv write
+data60:smoothing csv write 2
+data60:pearson
+data61:squeez
+data61:smoothing
+data61:detach
+data61:smoothing csv write
+data61:smoothing csv write 2
+data61:pearson
+data62:squeez
+data62:smoothing
+data62:detach
+data62:smoothing csv write
+data62:smoothing csv write 2
+data62:pearson
+data63:squeez
+data63:smoothing
+data63:detach
+data63:smoothing csv write
+data63:smoothing csv write 2
+data63:pearson
+data64:squeez
+data64:smoothing
+data64:detach
+data64:smoothing csv write
+data64:smoothing csv write 2
+data64:pearson
+data64:pearson csv write
+data65:squeez
+data65:smoothing
+data65:detach
+data65:smoothing csv write
+data65:smoothing csv write 2
+data65:pearson
+data66:squeez
+data66:smoothing
+data66:detach
+data66:smoothing csv write
+data66:smoothing csv write 2
+data66:pearson
+data67:squeez
+data67:smoothing
+data67:detach
+data67:smoothing csv write
+data67:smoothing csv write 2
+data67:pearson
+data68:squeez
+data68:smoothing
+data68:detach
+data68:smoothing csv write
+data68:smoothing csv write 2
+data68:pearson
+data69:squeez
+data69:smoothing
+data69:detach
+data69:smoothing csv write
+data69:smoothing csv write 2
+data69:pearson
+data70:squeez
+data70:smoothing
+data70:detach
+data70:smoothing csv write
+data70:smoothing csv write 2
+data70:pearson
+data71:squeez
+data71:smoothing
+data71:detach
+data71:smoothing csv write
+data71:smoothing csv write 2
+data71:pearson
+data72:squeez
+data72:smoothing
+data72:detach
+data72:smoothing csv write
+data72:smoothing csv write 2
+data72:pearson
+data73:squeez
+data73:smoothing
+data73:detach
+data73:smoothing csv write
+data73:smoothing csv write 2
+data73:pearson
+data74:squeez
+data74:smoothing
+data74:detach
+data74:smoothing csv write
+data74:smoothing csv write 2
+data74:pearson
+data75:squeez
+data75:smoothing
+data75:detach
+data75:smoothing csv write
+data75:smoothing csv write 2
+data75:pearson
+data76:squeez
+data76:smoothing
+data76:detach
+data76:smoothing csv write
+data76:smoothing csv write 2
+data76:pearson
+data77:squeez
+data77:smoothing
+data77:detach
+data77:smoothing csv write
+data77:smoothing csv write 2
+data77:pearson
+data78:squeez
+data78:smoothing
+data78:detach
+data78:smoothing csv write
+data78:smoothing csv write 2
+data78:pearson
+data79:squeez
+data79:smoothing
+data79:detach
+data79:smoothing csv write
+data79:smoothing csv write 2
+data79:pearson
+data80:squeez
+data80:smoothing
+data80:detach
+data80:smoothing csv write
+data80:smoothing csv write 2
+data80:pearson
+data81:squeez
+data81:smoothing
+data81:detach
+data81:smoothing csv write
+data81:smoothing csv write 2
+data81:pearson
+data82:squeez
+data82:smoothing
+data82:detach
+data82:smoothing csv write
+data82:smoothing csv write 2
+data82:pearson
+data83:squeez
+data83:smoothing
+data83:detach
+data83:smoothing csv write
+data83:smoothing csv write 2
+data83:pearson
+data84:squeez
+data84:smoothing
+data84:detach
+data84:smoothing csv write
+data84:smoothing csv write 2
+data84:pearson
+data85:squeez
+data85:smoothing
+data85:detach
+data85:smoothing csv write
+data85:smoothing csv write 2
+data85:pearson
+data86:squeez
+data86:smoothing
+data86:detach
+data86:smoothing csv write
+data86:smoothing csv write 2
+data86:pearson
+data87:squeez
+data87:smoothing
+data87:detach
+data87:smoothing csv write
+data87:smoothing csv write 2
+data87:pearson
+data88:squeez
+data88:smoothing
+data88:detach
+data88:smoothing csv write
+data88:smoothing csv write 2
+data88:pearson
+data89:squeez
+data89:smoothing
+data89:detach
+data89:smoothing csv write
+data89:smoothing csv write 2
+data89:pearson
+data90:squeez
+data90:smoothing
+data90:detach
+data90:smoothing csv write
+data90:smoothing csv write 2
+data90:pearson
+data91:squeez
+data91:smoothing
+data91:detach
+data91:smoothing csv write
+data91:smoothing csv write 2
+data91:pearson
+data92:squeez
+data92:smoothing
+data92:detach
+data92:smoothing csv write
+data92:smoothing csv write 2
+data92:pearson
+data93:squeez
+data93:smoothing
+data93:detach
+data93:smoothing csv write
+data93:smoothing csv write 2
+data93:pearson
+data94:squeez
+data94:smoothing
+data94:detach
+data94:smoothing csv write
+data94:smoothing csv write 2
+data94:pearson
+data95:squeez
+data95:smoothing
+data95:detach
+data95:smoothing csv write
+data95:smoothing csv write 2
+data95:pearson
+data96:squeez
+data96:smoothing
+data96:detach
+data96:smoothing csv write
+data96:smoothing csv write 2
+data96:pearson
+data97:squeez
+data97:smoothing
+data97:detach
+data97:smoothing csv write
+data97:smoothing csv write 2
+data97:pearson
+data98:squeez
+data98:smoothing
+data98:detach
+data98:smoothing csv write
+data98:smoothing csv write 2
+data98:pearson
+data99:squeez
+data99:smoothing
+data99:detach
+data99:smoothing csv write
+data99:smoothing csv write 2
+data99:pearson
+data100:squeez
+data100:smoothing
+data100:detach
+data100:smoothing csv write
+data100:smoothing csv write 2
+data100:pearson
+data101:squeez
+data101:smoothing
+data101:detach
+data101:smoothing csv write
+data101:smoothing csv write 2
+data101:pearson
+data102:squeez
+data102:smoothing
+data102:detach
+data102:smoothing csv write
+data102:smoothing csv write 2
+data102:pearson
+data103:squeez
+data103:smoothing
+data103:detach
+data103:smoothing csv write
+data103:smoothing csv write 2
+data103:pearson
+data104:squeez
+data104:smoothing
+data104:detach
+data104:smoothing csv write
+data104:smoothing csv write 2
+data104:pearson
+data105:squeez
+data105:smoothing
+data105:detach
+data105:smoothing csv write
+data105:smoothing csv write 2
+data105:pearson
+data106:squeez
+data106:smoothing
+data106:detach
+data106:smoothing csv write
+data106:smoothing csv write 2
+data106:pearson
+data107:squeez
+data107:smoothing
+data107:detach
+data107:smoothing csv write
+data107:smoothing csv write 2
+data107:pearson
+data108:squeez
+data108:smoothing
+data108:detach
+data108:smoothing csv write
+data108:smoothing csv write 2
+data108:pearson
+data109:squeez
+data109:smoothing
+data109:detach
+data109:smoothing csv write
+data109:smoothing csv write 2
+data109:pearson
+data110:squeez
+data110:smoothing
+data110:detach
+data110:smoothing csv write
+data110:smoothing csv write 2
+data110:pearson
+data111:squeez
+data111:smoothing
+data111:detach
+data111:smoothing csv write
+data111:smoothing csv write 2
+data111:pearson
+data112:squeez
+data112:smoothing
+data112:detach
+data112:smoothing csv write
+data112:smoothing csv write 2
+data112:pearson
+data113:squeez
+data113:smoothing
+data113:detach
+data113:smoothing csv write
+data113:smoothing csv write 2
+data113:pearson
+data114:squeez
+data114:smoothing
+data114:detach
+data114:smoothing csv write
+data114:smoothing csv write 2
+data114:pearson
+data115:squeez
+data115:smoothing
+data115:detach
+data115:smoothing csv write
+data115:smoothing csv write 2
+data115:pearson
+data116:squeez
+data116:smoothing
+data116:detach
+data116:smoothing csv write
+data116:smoothing csv write 2
+data116:pearson
+data117:squeez
+data117:smoothing
+data117:detach
+data117:smoothing csv write
+data117:smoothing csv write 2
+data117:pearson
+data118:squeez
+data118:smoothing
+data118:detach
+data118:smoothing csv write
+data118:smoothing csv write 2
+data118:pearson
+data119:squeez
+data119:smoothing
+data119:detach
+data119:smoothing csv write
+data119:smoothing csv write 2
+data119:pearson
+data120:squeez
+data120:smoothing
+data120:detach
+data120:smoothing csv write
+data120:smoothing csv write 2
+data120:pearson
+data121:squeez
+data121:smoothing
+data121:detach
+data121:smoothing csv write
+data121:smoothing csv write 2
+data121:pearson
+data122:squeez
+data122:smoothing
+data122:detach
+data122:smoothing csv write
+data122:smoothing csv write 2
+data122:pearson
+data123:squeez
+data123:smoothing
+data123:detach
+data123:smoothing csv write
+data123:smoothing csv write 2
+data123:pearson
+data124:squeez
+data124:smoothing
+data124:detach
+data124:smoothing csv write
+data124:smoothing csv write 2
+data124:pearson
+data125:squeez
+data125:smoothing
+data125:detach
+data125:smoothing csv write
+data125:smoothing csv write 2
+data125:pearson
+data126:squeez
+data126:smoothing
+data126:detach
+data126:smoothing csv write
+data126:smoothing csv write 2
+data126:pearson
+data127:squeez
+data127:smoothing
+data127:detach
+data127:smoothing csv write
+data127:smoothing csv write 2
+data127:pearson
+data128:squeez
+data128:smoothing
+data128:detach
+data128:smoothing csv write
+data128:smoothing csv write 2
+data128:pearson
+data128:pearson csv write
+data129:squeez
+data129:smoothing
+data129:detach
+data129:smoothing csv write
+data129:smoothing csv write 2
+data129:pearson
+data130:squeez
+data130:smoothing
+data130:detach
+data130:smoothing csv write
+data130:smoothing csv write 2
+data130:pearson
+data131:squeez
+data131:smoothing
+data131:detach
+data131:smoothing csv write
+data131:smoothing csv write 2
+data131:pearson
+data132:squeez
+data132:smoothing
+data132:detach
+data132:smoothing csv write
+data132:smoothing csv write 2
+data132:pearson
+data133:squeez
+data133:smoothing
+data133:detach
+data133:smoothing csv write
+data133:smoothing csv write 2
+data133:pearson
+data134:squeez
+data134:smoothing
+data134:detach
+data134:smoothing csv write
+data134:smoothing csv write 2
+data134:pearson
+data135:squeez
+data135:smoothing
+data135:detach
+data135:smoothing csv write
+data135:smoothing csv write 2
+data135:pearson
+data136:squeez
+data136:smoothing
+data136:detach
+data136:smoothing csv write
+data136:smoothing csv write 2
+data136:pearson
+data137:squeez
+data137:smoothing
+data137:detach
+data137:smoothing csv write
+data137:smoothing csv write 2
+data137:pearson
+data138:squeez
+data138:smoothing
+data138:detach
+data138:smoothing csv write
+data138:smoothing csv write 2
+data138:pearson
+data139:squeez
+data139:smoothing
+data139:detach
+data139:smoothing csv write
+data139:smoothing csv write 2
+data139:pearson
+data140:squeez
+data140:smoothing
+data140:detach
+data140:smoothing csv write
+data140:smoothing csv write 2
+data140:pearson
+data141:squeez
+data141:smoothing
+data141:detach
+data141:smoothing csv write
+data141:smoothing csv write 2
+data141:pearson
+data142:squeez
+data142:smoothing
+data142:detach
+data142:smoothing csv write
+data142:smoothing csv write 2
+data142:pearson
+data143:squeez
+data143:smoothing
+data143:detach
+data143:smoothing csv write
+data143:smoothing csv write 2
+data143:pearson
+data144:squeez
+data144:smoothing
+data144:detach
+data144:smoothing csv write
+data144:smoothing csv write 2
+data144:pearson
+data145:squeez
+data145:smoothing
+data145:detach
+data145:smoothing csv write
+data145:smoothing csv write 2
+data145:pearson
+data146:squeez
+data146:smoothing
+data146:detach
+data146:smoothing csv write
+data146:smoothing csv write 2
+data146:pearson
+data147:squeez
+data147:smoothing
+data147:detach
+data147:smoothing csv write
+data147:smoothing csv write 2
+data147:pearson
+data148:squeez
+data148:smoothing
+data148:detach
+data148:smoothing csv write
+data148:smoothing csv write 2
+data148:pearson
+data149:squeez
+data149:smoothing
+data149:detach
+data149:smoothing csv write
+data149:smoothing csv write 2
+data149:pearson
+data150:squeez
+data150:smoothing
+data150:detach
+data150:smoothing csv write
+data150:smoothing csv write 2
+data150:pearson
+data151:squeez
+data151:smoothing
+data151:detach
+data151:smoothing csv write
+data151:smoothing csv write 2
+data151:pearson
+data152:squeez
+data152:smoothing
+data152:detach
+data152:smoothing csv write
+data152:smoothing csv write 2
+data152:pearson
+data153:squeez
+data153:smoothing
+data153:detach
+data153:smoothing csv write
+data153:smoothing csv write 2
+data153:pearson
+data154:squeez
+data154:smoothing
+data154:detach
+data154:smoothing csv write
+data154:smoothing csv write 2
+data154:pearson
+data155:squeez
+data155:smoothing
+data155:detach
+data155:smoothing csv write
+data155:smoothing csv write 2
+data155:pearson
+data156:squeez
+data156:smoothing
+data156:detach
+data156:smoothing csv write
+data156:smoothing csv write 2
+data156:pearson
+data157:squeez
+data157:smoothing
+data157:detach
+data157:smoothing csv write
+data157:smoothing csv write 2
+data157:pearson
+data158:squeez
+data158:smoothing
+data158:detach
+data158:smoothing csv write
+data158:smoothing csv write 2
+data158:pearson
+data159:squeez
+data159:smoothing
+data159:detach
+data159:smoothing csv write
+data159:smoothing csv write 2
+data159:pearson
+data160:squeez
+data160:smoothing
+data160:detach
+data160:smoothing csv write
+data160:smoothing csv write 2
+data160:pearson
+data161:squeez
+data161:smoothing
+data161:detach
+data161:smoothing csv write
+data161:smoothing csv write 2
+data161:pearson
+data162:squeez
+data162:smoothing
+data162:detach
+data162:smoothing csv write
+data162:smoothing csv write 2
+data162:pearson
+data163:squeez
+data163:smoothing
+data163:detach
+data163:smoothing csv write
+data163:smoothing csv write 2
+data163:pearson
+data164:squeez
+data164:smoothing
+data164:detach
+data164:smoothing csv write
+data164:smoothing csv write 2
+data164:pearson
+data165:squeez
+data165:smoothing
+data165:detach
+data165:smoothing csv write
+data165:smoothing csv write 2
+data165:pearson
+data166:squeez
+data166:smoothing
+data166:detach
+data166:smoothing csv write
+data166:smoothing csv write 2
+data166:pearson
+data167:squeez
+data167:smoothing
+data167:detach
+data167:smoothing csv write
+data167:smoothing csv write 2
+data167:pearson
+data168:squeez
+data168:smoothing
+data168:detach
+data168:smoothing csv write
+data168:smoothing csv write 2
+data168:pearson
+data169:squeez
+data169:smoothing
+data169:detach
+data169:smoothing csv write
+data169:smoothing csv write 2
+data169:pearson
+data170:squeez
+data170:smoothing
+data170:detach
+data170:smoothing csv write
+data170:smoothing csv write 2
+data170:pearson
+data171:squeez
+data171:smoothing
+data171:detach
+data171:smoothing csv write
+data171:smoothing csv write 2
+data171:pearson
+data172:squeez
+data172:smoothing
+data172:detach
+data172:smoothing csv write
+data172:smoothing csv write 2
+data172:pearson
+data173:squeez
+data173:smoothing
+data173:detach
+data173:smoothing csv write
+data173:smoothing csv write 2
+data173:pearson
+data174:squeez
+data174:smoothing
+data174:detach
+data174:smoothing csv write
+data174:smoothing csv write 2
+data174:pearson
+data175:squeez
+data175:smoothing
+data175:detach
+data175:smoothing csv write
+data175:smoothing csv write 2
+data175:pearson
+data176:squeez
+data176:smoothing
+data176:detach
+data176:smoothing csv write
+data176:smoothing csv write 2
+data176:pearson
+data177:squeez
+data177:smoothing
+data177:detach
+data177:smoothing csv write
+data177:smoothing csv write 2
+data177:pearson
+data178:squeez
+data178:smoothing
+data178:detach
+data178:smoothing csv write
+data178:smoothing csv write 2
+data178:pearson
+data179:squeez
+data179:smoothing
+data179:detach
+data179:smoothing csv write
+data179:smoothing csv write 2
+data179:pearson
+data180:squeez
+data180:smoothing
+data180:detach
+data180:smoothing csv write
+data180:smoothing csv write 2
+data180:pearson
+data181:squeez
+data181:smoothing
+data181:detach
+data181:smoothing csv write
+data181:smoothing csv write 2
+data181:pearson
+data182:squeez
+data182:smoothing
+data182:detach
+data182:smoothing csv write
+data182:smoothing csv write 2
+data182:pearson
+data183:squeez
+data183:smoothing
+data183:detach
+data183:smoothing csv write
+data183:smoothing csv write 2
+data183:pearson
+data184:squeez
+data184:smoothing
+data184:detach
+data184:smoothing csv write
+data184:smoothing csv write 2
+data184:pearson
+data185:squeez
+data185:smoothing
+data185:detach
+data185:smoothing csv write
+data185:smoothing csv write 2
+data185:pearson
+data186:squeez
+data186:smoothing
+data186:detach
+data186:smoothing csv write
+data186:smoothing csv write 2
+data186:pearson
+data187:squeez
+data187:smoothing
+data187:detach
+data187:smoothing csv write
+data187:smoothing csv write 2
+data187:pearson
+data188:squeez
+data188:smoothing
+data188:detach
+data188:smoothing csv write
+data188:smoothing csv write 2
+data188:pearson
+data189:squeez
+data189:smoothing
+data189:detach
+data189:smoothing csv write
+data189:smoothing csv write 2
+data189:pearson
+data190:squeez
+data190:smoothing
+data190:detach
+data190:smoothing csv write
+data190:smoothing csv write 2
+data190:pearson
+data191:squeez
+data191:smoothing
+data191:detach
+data191:smoothing csv write
+data191:smoothing csv write 2
+data191:pearson
+data192:squeez
+data192:smoothing
+data192:detach
+data192:smoothing csv write
+data192:smoothing csv write 2
+data192:pearson
+data192:pearson csv write
+data193:squeez
+data193:smoothing
+data193:detach
+data193:smoothing csv write
+data193:smoothing csv write 2
+data193:pearson
+data194:squeez
+data194:smoothing
+data194:detach
+data194:smoothing csv write
+data194:smoothing csv write 2
+data194:pearson
+data195:squeez
+data195:smoothing
+data195:detach
+data195:smoothing csv write
+data195:smoothing csv write 2
+data195:pearson
+data196:squeez
+data196:smoothing
+data196:detach
+data196:smoothing csv write
+data196:smoothing csv write 2
+data196:pearson
+data197:squeez
+data197:smoothing
+data197:detach
+data197:smoothing csv write
+data197:smoothing csv write 2
+data197:pearson
+data198:squeez
+data198:smoothing
+data198:detach
+data198:smoothing csv write
+data198:smoothing csv write 2
+data198:pearson
+data199:squeez
+data199:smoothing
+data199:detach
+data199:smoothing csv write
+data199:smoothing csv write 2
+data199:pearson
+data200:squeez
+data200:smoothing
+data200:detach
+data200:smoothing csv write
+data200:smoothing csv write 2
+data200:pearson
+data201:squeez
+data201:smoothing
+data201:detach
+data201:smoothing csv write
+data201:smoothing csv write 2
+data201:pearson
+data202:squeez
+data202:smoothing
+data202:detach
+data202:smoothing csv write
+data202:smoothing csv write 2
+data202:pearson
+data203:squeez
+data203:smoothing
+data203:detach
+data203:smoothing csv write
+data203:smoothing csv write 2
+data203:pearson
+data204:squeez
+data204:smoothing
+data204:detach
+data204:smoothing csv write
+data204:smoothing csv write 2
+data204:pearson
+data205:squeez
+data205:smoothing
+data205:detach
+data205:smoothing csv write
+data205:smoothing csv write 2
+data205:pearson
+data206:squeez
+data206:smoothing
+data206:detach
+data206:smoothing csv write
+data206:smoothing csv write 2
+data206:pearson
+data207:squeez
+data207:smoothing
+data207:detach
+data207:smoothing csv write
+data207:smoothing csv write 2
+data207:pearson
+data208:squeez
+data208:smoothing
+data208:detach
+data208:smoothing csv write
+data208:smoothing csv write 2
+data208:pearson
+data209:squeez
+data209:smoothing
+data209:detach
+data209:smoothing csv write
+data209:smoothing csv write 2
+data209:pearson
+data210:squeez
+data210:smoothing
+data210:detach
+data210:smoothing csv write
+data210:smoothing csv write 2
+data210:pearson
+data211:squeez
+data211:smoothing
+data211:detach
+data211:smoothing csv write
+data211:smoothing csv write 2
+data211:pearson
+data212:squeez
+data212:smoothing
+data212:detach
+data212:smoothing csv write
+data212:smoothing csv write 2
+data212:pearson
+data213:squeez
+data213:smoothing
+data213:detach
+data213:smoothing csv write
+data213:smoothing csv write 2
+data213:pearson
+data214:squeez
+data214:smoothing
+data214:detach
+data214:smoothing csv write
+data214:smoothing csv write 2
+data214:pearson
+data215:squeez
+data215:smoothing
+data215:detach
+data215:smoothing csv write
+data215:smoothing csv write 2
+data215:pearson
+data216:squeez
+data216:smoothing
+data216:detach
+data216:smoothing csv write
+data216:smoothing csv write 2
+data216:pearson
+data217:squeez
+data217:smoothing
+data217:detach
+data217:smoothing csv write
+data217:smoothing csv write 2
+data217:pearson
+data218:squeez
+data218:smoothing
+data218:detach
+data218:smoothing csv write
+data218:smoothing csv write 2
+data218:pearson
+data219:squeez
+data219:smoothing
+data219:detach
+data219:smoothing csv write
+data219:smoothing csv write 2
+data219:pearson
+data220:squeez
+data220:smoothing
+data220:detach
+data220:smoothing csv write
+data220:smoothing csv write 2
+data220:pearson
+data221:squeez
+data221:smoothing
+data221:detach
+data221:smoothing csv write
+data221:smoothing csv write 2
+data221:pearson
+data222:squeez
+data222:smoothing
+data222:detach
+data222:smoothing csv write
+data222:smoothing csv write 2
+data222:pearson
+data223:squeez
+data223:smoothing
+data223:detach
+data223:smoothing csv write
+data223:smoothing csv write 2
+data223:pearson
+data224:squeez
+data224:smoothing
+data224:detach
+data224:smoothing csv write
+data224:smoothing csv write 2
+data224:pearson
+data225:squeez
+data225:smoothing
+data225:detach
+data225:smoothing csv write
+data225:smoothing csv write 2
+data225:pearson
+data226:squeez
+data226:smoothing
+data226:detach
+data226:smoothing csv write
+data226:smoothing csv write 2
+data226:pearson
+data227:squeez
+data227:smoothing
+data227:detach
+data227:smoothing csv write
+data227:smoothing csv write 2
+data227:pearson
+data228:squeez
+data228:smoothing
+data228:detach
+data228:smoothing csv write
+data228:smoothing csv write 2
+data228:pearson
+data229:squeez
+data229:smoothing
+data229:detach
+data229:smoothing csv write
+data229:smoothing csv write 2
+data229:pearson
+data230:squeez
+data230:smoothing
+data230:detach
+data230:smoothing csv write
+data230:smoothing csv write 2
+data230:pearson
+data231:squeez
+data231:smoothing
+data231:detach
+data231:smoothing csv write
+data231:smoothing csv write 2
+data231:pearson
+data232:squeez
+data232:smoothing
+data232:detach
+data232:smoothing csv write
+data232:smoothing csv write 2
+data232:pearson
+data233:squeez
+data233:smoothing
+data233:detach
+data233:smoothing csv write
+data233:smoothing csv write 2
+data233:pearson
+data234:squeez
+data234:smoothing
+data234:detach
+data234:smoothing csv write
+data234:smoothing csv write 2
+data234:pearson
+data235:squeez
+data235:smoothing
+data235:detach
+data235:smoothing csv write
+data235:smoothing csv write 2
+data235:pearson
+data236:squeez
+data236:smoothing
+data236:detach
+data236:smoothing csv write
+data236:smoothing csv write 2
+data236:pearson
+data237:squeez
+data237:smoothing
+data237:detach
+data237:smoothing csv write
+data237:smoothing csv write 2
+data237:pearson
+data238:squeez
+data238:smoothing
+data238:detach
+data238:smoothing csv write
+data238:smoothing csv write 2
+data238:pearson
+data239:squeez
+data239:smoothing
+data239:detach
+data239:smoothing csv write
+data239:smoothing csv write 2
+data239:pearson
+data240:squeez
+data240:smoothing
+data240:detach
+data240:smoothing csv write
+data240:smoothing csv write 2
+data240:pearson
+data241:squeez
+data241:smoothing
+data241:detach
+data241:smoothing csv write
+data241:smoothing csv write 2
+data241:pearson
+data242:squeez
+data242:smoothing
+data242:detach
+data242:smoothing csv write
+data242:smoothing csv write 2
+data242:pearson
+data243:squeez
+data243:smoothing
+data243:detach
+data243:smoothing csv write
+data243:smoothing csv write 2
+data243:pearson
+data244:squeez
+data244:smoothing
+data244:detach
+data244:smoothing csv write
+data244:smoothing csv write 2
+data244:pearson
+data245:squeez
+data245:smoothing
+data245:detach
+data245:smoothing csv write
+data245:smoothing csv write 2
+data245:pearson
+data246:squeez
+data246:smoothing
+data246:detach
+data246:smoothing csv write
+data246:smoothing csv write 2
+data246:pearson
+data247:squeez
+data247:smoothing
+data247:detach
+data247:smoothing csv write
+data247:smoothing csv write 2
+data247:pearson
+data248:squeez
+data248:smoothing
+data248:detach
+data248:smoothing csv write
+data248:smoothing csv write 2
+data248:pearson
+data249:squeez
+data249:smoothing
+data249:detach
+data249:smoothing csv write
+data249:smoothing csv write 2
+data249:pearson
+data250:squeez
+data250:smoothing
+data250:detach
+data250:smoothing csv write
+data250:smoothing csv write 2
+data250:pearson
+data251:squeez
+data251:smoothing
+data251:detach
+data251:smoothing csv write
+data251:smoothing csv write 2
+data251:pearson
+data252:squeez
+data252:smoothing
+data252:detach
+data252:smoothing csv write
+data252:smoothing csv write 2
+data252:pearson
+data253:squeez
+data253:smoothing
+data253:detach
+data253:smoothing csv write
+data253:smoothing csv write 2
+data253:pearson
+data254:squeez
+data254:smoothing
+data254:detach
+data254:smoothing csv write
+data254:smoothing csv write 2
+data254:pearson
+data255:squeez
+data255:smoothing
+data255:detach
+data255:smoothing csv write
+data255:smoothing csv write 2
+data255:pearson
+data256:squeez
+data256:smoothing
+data256:detach
+data256:smoothing csv write
+data256:smoothing csv write 2
+data256:pearson
+data256:pearson csv write
+data257:squeez
+data257:smoothing
+data257:detach
+data257:smoothing csv write
+data257:smoothing csv write 2
+data257:pearson
+data258:squeez
+data258:smoothing
+data258:detach
+data258:smoothing csv write
+data258:smoothing csv write 2
+data258:pearson
+data259:squeez
+data259:smoothing
+data259:detach
+data259:smoothing csv write
+data259:smoothing csv write 2
+data259:pearson
+data260:squeez
+data260:smoothing
+data260:detach
+data260:smoothing csv write
+data260:smoothing csv write 2
+data260:pearson
+data261:squeez
+data261:smoothing
+data261:detach
+data261:smoothing csv write
+data261:smoothing csv write 2
+data261:pearson
+data262:squeez
+data262:smoothing
+data262:detach
+data262:smoothing csv write
+data262:smoothing csv write 2
+data262:pearson
+data263:squeez
+data263:smoothing
+data263:detach
+data263:smoothing csv write
+data263:smoothing csv write 2
+data263:pearson
+data264:squeez
+data264:smoothing
+data264:detach
+data264:smoothing csv write
+data264:smoothing csv write 2
+data264:pearson
+data265:squeez
+data265:smoothing
+data265:detach
+data265:smoothing csv write
+data265:smoothing csv write 2
+data265:pearson
+data266:squeez
+data266:smoothing
+data266:detach
+data266:smoothing csv write
+data266:smoothing csv write 2
+data266:pearson
+data267:squeez
+data267:smoothing
+data267:detach
+data267:smoothing csv write
+data267:smoothing csv write 2
+data267:pearson
+data268:squeez
+data268:smoothing
+data268:detach
+data268:smoothing csv write
+data268:smoothing csv write 2
+data268:pearson
+data269:squeez
+data269:smoothing
+data269:detach
+data269:smoothing csv write
+data269:smoothing csv write 2
+data269:pearson
+data270:squeez
+data270:smoothing
+data270:detach
+data270:smoothing csv write
+data270:smoothing csv write 2
+data270:pearson
+data271:squeez
+data271:smoothing
+data271:detach
+data271:smoothing csv write
+data271:smoothing csv write 2
+data271:pearson
+data272:squeez
+data272:smoothing
+data272:detach
+data272:smoothing csv write
+data272:smoothing csv write 2
+data272:pearson
+data273:squeez
+data273:smoothing
+data273:detach
+data273:smoothing csv write
+data273:smoothing csv write 2
+data273:pearson
+data274:squeez
+data274:smoothing
+data274:detach
+data274:smoothing csv write
+data274:smoothing csv write 2
+data274:pearson
+data275:squeez
+data275:smoothing
+data275:detach
+data275:smoothing csv write
+data275:smoothing csv write 2
+data275:pearson
+data276:squeez
+data276:smoothing
+data276:detach
+data276:smoothing csv write
+data276:smoothing csv write 2
+data276:pearson
+data277:squeez
+data277:smoothing
+data277:detach
+data277:smoothing csv write
+data277:smoothing csv write 2
+data277:pearson
+data278:squeez
+data278:smoothing
+data278:detach
+data278:smoothing csv write
+data278:smoothing csv write 2
+data278:pearson
+data279:squeez
+data279:smoothing
+data279:detach
+data279:smoothing csv write
+data279:smoothing csv write 2
+data279:pearson
+data280:squeez
+data280:smoothing
+data280:detach
+data280:smoothing csv write
+data280:smoothing csv write 2
+data280:pearson
+data281:squeez
+data281:smoothing
+data281:detach
+data281:smoothing csv write
+data281:smoothing csv write 2
+data281:pearson
+data282:squeez
+data282:smoothing
+data282:detach
+data282:smoothing csv write
+data282:smoothing csv write 2
+data282:pearson
+data283:squeez
+data283:smoothing
+data283:detach
+data283:smoothing csv write
+data283:smoothing csv write 2
+data283:pearson
+data284:squeez
+data284:smoothing
+data284:detach
+data284:smoothing csv write
+data284:smoothing csv write 2
+data284:pearson
+data285:squeez
+data285:smoothing
+data285:detach
+data285:smoothing csv write
+data285:smoothing csv write 2
+data285:pearson
+data286:squeez
+data286:smoothing
+data286:detach
+data286:smoothing csv write
+data286:smoothing csv write 2
+data286:pearson
+data287:squeez
+data287:smoothing
+data287:detach
+data287:smoothing csv write
+data287:smoothing csv write 2
+data287:pearson
+data288:squeez
+data288:smoothing
+data288:detach
+data288:smoothing csv write
+data288:smoothing csv write 2
+data288:pearson
+data289:squeez
+data289:smoothing
+data289:detach
+data289:smoothing csv write
+data289:smoothing csv write 2
+data289:pearson
+data290:squeez
+data290:smoothing
+data290:detach
+data290:smoothing csv write
+data290:smoothing csv write 2
+data290:pearson
+data291:squeez
+data291:smoothing
+data291:detach
+data291:smoothing csv write
+data291:smoothing csv write 2
+data291:pearson
+data292:squeez
+data292:smoothing
+data292:detach
+data292:smoothing csv write
+data292:smoothing csv write 2
+data292:pearson
+data293:squeez
+data293:smoothing
+data293:detach
+data293:smoothing csv write
+data293:smoothing csv write 2
+data293:pearson
+data294:squeez
+data294:smoothing
+data294:detach
+data294:smoothing csv write
+data294:smoothing csv write 2
+data294:pearson
+data295:squeez
+data295:smoothing
+data295:detach
+data295:smoothing csv write
+data295:smoothing csv write 2
+data295:pearson
+data296:squeez
+data296:smoothing
+data296:detach
+data296:smoothing csv write
+data296:smoothing csv write 2
+data296:pearson
+data297:squeez
+data297:smoothing
+data297:detach
+data297:smoothing csv write
+data297:smoothing csv write 2
+data297:pearson
+data298:squeez
+data298:smoothing
+data298:detach
+data298:smoothing csv write
+data298:smoothing csv write 2
+data298:pearson
+data299:squeez
+data299:smoothing
+data299:detach
+data299:smoothing csv write
+data299:smoothing csv write 2
+data299:pearson
+data300:squeez
+data300:smoothing
+data300:detach
+data300:smoothing csv write
+data300:smoothing csv write 2
+data300:pearson
+data301:squeez
+data301:smoothing
+data301:detach
+data301:smoothing csv write
+data301:smoothing csv write 2
+data301:pearson
+data302:squeez
+data302:smoothing
+data302:detach
+data302:smoothing csv write
+data302:smoothing csv write 2
+data302:pearson
+data303:squeez
+data303:smoothing
+data303:detach
+data303:smoothing csv write
+data303:smoothing csv write 2
+data303:pearson
+data304:squeez
+data304:smoothing
+data304:detach
+data304:smoothing csv write
+data304:smoothing csv write 2
+data304:pearson
+data305:squeez
+data305:smoothing
+data305:detach
+data305:smoothing csv write
+data305:smoothing csv write 2
+data305:pearson
+data306:squeez
+data306:smoothing
+data306:detach
+data306:smoothing csv write
+data306:smoothing csv write 2
+data306:pearson
+data307:squeez
+data307:smoothing
+data307:detach
+data307:smoothing csv write
+data307:smoothing csv write 2
+data307:pearson
+data308:squeez
+data308:smoothing
+data308:detach
+data308:smoothing csv write
+data308:smoothing csv write 2
+data308:pearson
+data309:squeez
+data309:smoothing
+data309:detach
+data309:smoothing csv write
+data309:smoothing csv write 2
+data309:pearson
+data310:squeez
+data310:smoothing
+data310:detach
+data310:smoothing csv write
+data310:smoothing csv write 2
+data310:pearson
+data311:squeez
+data311:smoothing
+data311:detach
+data311:smoothing csv write
+data311:smoothing csv write 2
+data311:pearson
+data312:squeez
+data312:smoothing
+data312:detach
+data312:smoothing csv write
+data312:smoothing csv write 2
+data312:pearson
+data313:squeez
+data313:smoothing
+data313:detach
+data313:smoothing csv write
+data313:smoothing csv write 2
+data313:pearson
+data314:squeez
+data314:smoothing
+data314:detach
+data314:smoothing csv write
+data314:smoothing csv write 2
+data314:pearson
+data315:squeez
+data315:smoothing
+data315:detach
+data315:smoothing csv write
+data315:smoothing csv write 2
+data315:pearson
+data316:squeez
+data316:smoothing
+data316:detach
+data316:smoothing csv write
+data316:smoothing csv write 2
+data316:pearson
+data317:squeez
+data317:smoothing
+data317:detach
+data317:smoothing csv write
+data317:smoothing csv write 2
+data317:pearson
+data318:squeez
+data318:smoothing
+data318:detach
+data318:smoothing csv write
+data318:smoothing csv write 2
+data318:pearson
+data319:squeez
+data319:smoothing
+data319:detach
+data319:smoothing csv write
+data319:smoothing csv write 2
+data319:pearson
+data320:squeez
+data320:smoothing
+data320:detach
+data320:smoothing csv write
+data320:smoothing csv write 2
+data320:pearson
+data320:pearson csv write
+data321:squeez
+data321:smoothing
+data321:detach
+data321:smoothing csv write
+data321:smoothing csv write 2
+data321:pearson
+data322:squeez
+data322:smoothing
+data322:detach
+data322:smoothing csv write
+data322:smoothing csv write 2
+data322:pearson
+data323:squeez
+data323:smoothing
+data323:detach
+data323:smoothing csv write
+data323:smoothing csv write 2
+data323:pearson
+data324:squeez
+data324:smoothing
+data324:detach
+data324:smoothing csv write
+data324:smoothing csv write 2
+data324:pearson
+data325:squeez
+data325:smoothing
+data325:detach
+data325:smoothing csv write
+data325:smoothing csv write 2
+data325:pearson
+data326:squeez
+data326:smoothing
+data326:detach
+data326:smoothing csv write
+data326:smoothing csv write 2
+data326:pearson
+data327:squeez
+data327:smoothing
+data327:detach
+data327:smoothing csv write
+data327:smoothing csv write 2
+data327:pearson
+data328:squeez
+data328:smoothing
+data328:detach
+data328:smoothing csv write
+data328:smoothing csv write 2
+data328:pearson
+data329:squeez
+data329:smoothing
+data329:detach
+data329:smoothing csv write
+data329:smoothing csv write 2
+data329:pearson
+data330:squeez
+data330:smoothing
+data330:detach
+data330:smoothing csv write
+data330:smoothing csv write 2
+data330:pearson
+data331:squeez
+data331:smoothing
+data331:detach
+data331:smoothing csv write
+data331:smoothing csv write 2
+data331:pearson
+data332:squeez
+data332:smoothing
+data332:detach
+data332:smoothing csv write
+data332:smoothing csv write 2
+data332:pearson
+data333:squeez
+data333:smoothing
+data333:detach
+data333:smoothing csv write
+data333:smoothing csv write 2
+data333:pearson
+data334:squeez
+data334:smoothing
+data334:detach
+data334:smoothing csv write
+data334:smoothing csv write 2
+data334:pearson
+data335:squeez
+data335:smoothing
+data335:detach
+data335:smoothing csv write
+data335:smoothing csv write 2
+data335:pearson
+data336:squeez
+data336:smoothing
+data336:detach
+data336:smoothing csv write
+data336:smoothing csv write 2
+data336:pearson
+data337:squeez
+data337:smoothing
+data337:detach
+data337:smoothing csv write
+data337:smoothing csv write 2
+data337:pearson
+data338:squeez
+data338:smoothing
+data338:detach
+data338:smoothing csv write
+data338:smoothing csv write 2
+data338:pearson
+data339:squeez
+data339:smoothing
+data339:detach
+data339:smoothing csv write
+data339:smoothing csv write 2
+data339:pearson
+data340:squeez
+data340:smoothing
+data340:detach
+data340:smoothing csv write
+data340:smoothing csv write 2
+data340:pearson
+data341:squeez
+data341:smoothing
+data341:detach
+data341:smoothing csv write
+data341:smoothing csv write 2
+data341:pearson
+data342:squeez
+data342:smoothing
+data342:detach
+data342:smoothing csv write
+data342:smoothing csv write 2
+data342:pearson
+data343:squeez
+data343:smoothing
+data343:detach
+data343:smoothing csv write
+data343:smoothing csv write 2
+data343:pearson
+data344:squeez
+data344:smoothing
+data344:detach
+data344:smoothing csv write
+data344:smoothing csv write 2
+data344:pearson
+data345:squeez
+data345:smoothing
+data345:detach
+data345:smoothing csv write
+data345:smoothing csv write 2
+data345:pearson
+data346:squeez
+data346:smoothing
+data346:detach
+data346:smoothing csv write
+data346:smoothing csv write 2
+data346:pearson
+data347:squeez
+data347:smoothing
+data347:detach
+data347:smoothing csv write
+data347:smoothing csv write 2
+data347:pearson
+data348:squeez
+data348:smoothing
+data348:detach
+data348:smoothing csv write
+data348:smoothing csv write 2
+data348:pearson
+data349:squeez
+data349:smoothing
+data349:detach
+data349:smoothing csv write
+data349:smoothing csv write 2
+data349:pearson
+data350:squeez
+data350:smoothing
+data350:detach
+data350:smoothing csv write
+data350:smoothing csv write 2
+data350:pearson
+data351:squeez
+data351:smoothing
+data351:detach
+data351:smoothing csv write
+data351:smoothing csv write 2
+data351:pearson
+data352:squeez
+data352:smoothing
+data352:detach
+data352:smoothing csv write
+data352:smoothing csv write 2
+data352:pearson
+data353:squeez
+data353:smoothing
+data353:detach
+data353:smoothing csv write
+data353:smoothing csv write 2
+data353:pearson
+data354:squeez
+data354:smoothing
+data354:detach
+data354:smoothing csv write
+data354:smoothing csv write 2
+data354:pearson
+data355:squeez
+data355:smoothing
+data355:detach
+data355:smoothing csv write
+data355:smoothing csv write 2
+data355:pearson
+data356:squeez
+data356:smoothing
+data356:detach
+data356:smoothing csv write
+data356:smoothing csv write 2
+data356:pearson
+data357:squeez
+data357:smoothing
+data357:detach
+data357:smoothing csv write
+data357:smoothing csv write 2
+data357:pearson
+data358:squeez
+data358:smoothing
+data358:detach
+data358:smoothing csv write
+data358:smoothing csv write 2
+data358:pearson
+data359:squeez
+data359:smoothing
+data359:detach
+data359:smoothing csv write
+data359:smoothing csv write 2
+data359:pearson
+data360:squeez
+data360:smoothing
+data360:detach
+data360:smoothing csv write
+data360:smoothing csv write 2
+data360:pearson
+data361:squeez
+data361:smoothing
+data361:detach
+data361:smoothing csv write
+data361:smoothing csv write 2
+data361:pearson
+data362:squeez
+data362:smoothing
+data362:detach
+data362:smoothing csv write
+data362:smoothing csv write 2
+data362:pearson
+data363:squeez
+data363:smoothing
+data363:detach
+data363:smoothing csv write
+data363:smoothing csv write 2
+data363:pearson
+data364:squeez
+data364:smoothing
+data364:detach
+data364:smoothing csv write
+data364:smoothing csv write 2
+data364:pearson
+data365:squeez
+data365:smoothing
+data365:detach
+data365:smoothing csv write
+data365:smoothing csv write 2
+data365:pearson
+data366:squeez
+data366:smoothing
+data366:detach
+data366:smoothing csv write
+data366:smoothing csv write 2
+data366:pearson
+data367:squeez
+data367:smoothing
+data367:detach
+data367:smoothing csv write
+data367:smoothing csv write 2
+data367:pearson
+data368:squeez
+data368:smoothing
+data368:detach
+data368:smoothing csv write
+data368:smoothing csv write 2
+data368:pearson
+data369:squeez
+data369:smoothing
+data369:detach
+data369:smoothing csv write
+data369:smoothing csv write 2
+data369:pearson
+data370:squeez
+data370:smoothing
+data370:detach
+data370:smoothing csv write
+data370:smoothing csv write 2
+data370:pearson
+data371:squeez
+data371:smoothing
+data371:detach
+data371:smoothing csv write
+data371:smoothing csv write 2
+data371:pearson
+data372:squeez
+data372:smoothing
+data372:detach
+data372:smoothing csv write
+data372:smoothing csv write 2
+data372:pearson
+data373:squeez
+data373:smoothing
+data373:detach
+data373:smoothing csv write
+data373:smoothing csv write 2
+data373:pearson
+data374:squeez
+data374:smoothing
+data374:detach
+data374:smoothing csv write
+data374:smoothing csv write 2
+data374:pearson
+data375:squeez
+data375:smoothing
+data375:detach
+data375:smoothing csv write
+data375:smoothing csv write 2
+data375:pearson
+data376:squeez
+data376:smoothing
+data376:detach
+data376:smoothing csv write
+data376:smoothing csv write 2
+data376:pearson
+data377:squeez
+data377:smoothing
+data377:detach
+data377:smoothing csv write
+data377:smoothing csv write 2
+data377:pearson
+data378:squeez
+data378:smoothing
+data378:detach
+data378:smoothing csv write
+data378:smoothing csv write 2
+data378:pearson
+data379:squeez
+data379:smoothing
+data379:detach
+data379:smoothing csv write
+data379:smoothing csv write 2
+data379:pearson
+data380:squeez
+data380:smoothing
+data380:detach
+data380:smoothing csv write
+data380:smoothing csv write 2
+data380:pearson
+data381:squeez
+data381:smoothing
+data381:detach
+data381:smoothing csv write
+data381:smoothing csv write 2
+data381:pearson
+data382:squeez
+data382:smoothing
+data382:detach
+data382:smoothing csv write
+data382:smoothing csv write 2
+data382:pearson
+data383:squeez
+data383:smoothing
+data383:detach
+data383:smoothing csv write
+data383:smoothing csv write 2
+data383:pearson
+data384:squeez
+data384:smoothing
+data384:detach
+data384:smoothing csv write
+data384:smoothing csv write 2
+data384:pearson
+data384:pearson csv write
+data385:squeez
+data385:smoothing
+data385:detach
+data385:smoothing csv write
+data385:smoothing csv write 2
+data385:pearson
+data386:squeez
+data386:smoothing
+data386:detach
+data386:smoothing csv write
+data386:smoothing csv write 2
+data386:pearson
+data387:squeez
+data387:smoothing
+data387:detach
+data387:smoothing csv write
+data387:smoothing csv write 2
+data387:pearson
+data388:squeez
+data388:smoothing
+data388:detach
+data388:smoothing csv write
+data388:smoothing csv write 2
+data388:pearson
+data389:squeez
+data389:smoothing
+data389:detach
+data389:smoothing csv write
+data389:smoothing csv write 2
+data389:pearson
+data390:squeez
+data390:smoothing
+data390:detach
+data390:smoothing csv write
+data390:smoothing csv write 2
+data390:pearson
+data391:squeez
+data391:smoothing
+data391:detach
+data391:smoothing csv write
+data391:smoothing csv write 2
+data391:pearson
+data392:squeez
+data392:smoothing
+data392:detach
+data392:smoothing csv write
+data392:smoothing csv write 2
+data392:pearson
+data393:squeez
+data393:smoothing
+data393:detach
+data393:smoothing csv write
+data393:smoothing csv write 2
+data393:pearson
+data394:squeez
+data394:smoothing
+data394:detach
+data394:smoothing csv write
+data394:smoothing csv write 2
+data394:pearson
+data395:squeez
+data395:smoothing
+data395:detach
+data395:smoothing csv write
+data395:smoothing csv write 2
+data395:pearson
+data396:squeez
+data396:smoothing
+data396:detach
+data396:smoothing csv write
+data396:smoothing csv write 2
+data396:pearson
+data397:squeez
+data397:smoothing
+data397:detach
+data397:smoothing csv write
+data397:smoothing csv write 2
+data397:pearson
+data398:squeez
+data398:smoothing
+data398:detach
+data398:smoothing csv write
+data398:smoothing csv write 2
+data398:pearson
+data399:squeez
+data399:smoothing
+data399:detach
+data399:smoothing csv write
+data399:smoothing csv write 2
+data399:pearson
+data400:squeez
+data400:smoothing
+data400:detach
+data400:smoothing csv write
+data400:smoothing csv write 2
+data400:pearson
+data401:squeez
+data401:smoothing
+data401:detach
+data401:smoothing csv write
+data401:smoothing csv write 2
+data401:pearson
+data402:squeez
+data402:smoothing
+data402:detach
+data402:smoothing csv write
+data402:smoothing csv write 2
+data402:pearson
+data403:squeez
+data403:smoothing
+data403:detach
+data403:smoothing csv write
+data403:smoothing csv write 2
+data403:pearson
+data404:squeez
+data404:smoothing
+data404:detach
+data404:smoothing csv write
+data404:smoothing csv write 2
+data404:pearson
+data405:squeez
+data405:smoothing
+data405:detach
+data405:smoothing csv write
+data405:smoothing csv write 2
+data405:pearson
+data406:squeez
+data406:smoothing
+data406:detach
+data406:smoothing csv write
+data406:smoothing csv write 2
+data406:pearson
+data407:squeez
+data407:smoothing
+data407:detach
+data407:smoothing csv write
+data407:smoothing csv write 2
+data407:pearson
+data408:squeez
+data408:smoothing
+data408:detach
+data408:smoothing csv write
+data408:smoothing csv write 2
+data408:pearson
+data409:squeez
+data409:smoothing
+data409:detach
+data409:smoothing csv write
+data409:smoothing csv write 2
+data409:pearson
+data410:squeez
+data410:smoothing
+data410:detach
+data410:smoothing csv write
+data410:smoothing csv write 2
+data410:pearson
+data411:squeez
+data411:smoothing
+data411:detach
+data411:smoothing csv write
+data411:smoothing csv write 2
+data411:pearson
+data412:squeez
+data412:smoothing
+data412:detach
+data412:smoothing csv write
+data412:smoothing csv write 2
+data412:pearson
+data413:squeez
+data413:smoothing
+data413:detach
+data413:smoothing csv write
+data413:smoothing csv write 2
+data413:pearson
+data414:squeez
+data414:smoothing
+data414:detach
+data414:smoothing csv write
+data414:smoothing csv write 2
+data414:pearson
+data415:squeez
+data415:smoothing
+data415:detach
+data415:smoothing csv write
+data415:smoothing csv write 2
+data415:pearson
+data416:squeez
+data416:smoothing
+data416:detach
+data416:smoothing csv write
+data416:smoothing csv write 2
+data416:pearson
+data417:squeez
+data417:smoothing
+data417:detach
+data417:smoothing csv write
+data417:smoothing csv write 2
+data417:pearson
+data418:squeez
+data418:smoothing
+data418:detach
+data418:smoothing csv write
+data418:smoothing csv write 2
+data418:pearson
+data419:squeez
+data419:smoothing
+data419:detach
+data419:smoothing csv write
+data419:smoothing csv write 2
+data419:pearson
+data420:squeez
+data420:smoothing
+data420:detach
+data420:smoothing csv write
+data420:smoothing csv write 2
+data420:pearson
+data421:squeez
+data421:smoothing
+data421:detach
+data421:smoothing csv write
+data421:smoothing csv write 2
+data421:pearson
+data422:squeez
+data422:smoothing
+data422:detach
+data422:smoothing csv write
+data422:smoothing csv write 2
+data422:pearson
+data423:squeez
+data423:smoothing
+data423:detach
+data423:smoothing csv write
+data423:smoothing csv write 2
+data423:pearson
+data424:squeez
+data424:smoothing
+data424:detach
+data424:smoothing csv write
+data424:smoothing csv write 2
+data424:pearson
+data425:squeez
+data425:smoothing
+data425:detach
+data425:smoothing csv write
+data425:smoothing csv write 2
+data425:pearson
+data426:squeez
+data426:smoothing
+data426:detach
+data426:smoothing csv write
+data426:smoothing csv write 2
+data426:pearson
+data427:squeez
+data427:smoothing
+data427:detach
+data427:smoothing csv write
+data427:smoothing csv write 2
+data427:pearson
+data428:squeez
+data428:smoothing
+data428:detach
+data428:smoothing csv write
+data428:smoothing csv write 2
+data428:pearson
+data429:squeez
+data429:smoothing
+data429:detach
+data429:smoothing csv write
+data429:smoothing csv write 2
+data429:pearson
+data430:squeez
+data430:smoothing
+data430:detach
+data430:smoothing csv write
+data430:smoothing csv write 2
+data430:pearson
+data431:squeez
+data431:smoothing
+data431:detach
+data431:smoothing csv write
+data431:smoothing csv write 2
+data431:pearson
+data432:squeez
+data432:smoothing
+data432:detach
+data432:smoothing csv write
+data432:smoothing csv write 2
+data432:pearson
+data433:squeez
+data433:smoothing
+data433:detach
+data433:smoothing csv write
+data433:smoothing csv write 2
+data433:pearson
+data434:squeez
+data434:smoothing
+data434:detach
+data434:smoothing csv write
+data434:smoothing csv write 2
+data434:pearson
+data435:squeez
+data435:smoothing
+data435:detach
+data435:smoothing csv write
+data435:smoothing csv write 2
+data435:pearson
+data436:squeez
+data436:smoothing
+data436:detach
+data436:smoothing csv write
+data436:smoothing csv write 2
+data436:pearson
+data437:squeez
+data437:smoothing
+data437:detach
+data437:smoothing csv write
+data437:smoothing csv write 2
+data437:pearson
+data438:squeez
+data438:smoothing
+data438:detach
+data438:smoothing csv write
+data438:smoothing csv write 2
+data438:pearson
+data439:squeez
+data439:smoothing
+data439:detach
+data439:smoothing csv write
+data439:smoothing csv write 2
+data439:pearson
+data440:squeez
+data440:smoothing
+data440:detach
+data440:smoothing csv write
+data440:smoothing csv write 2
+data440:pearson
+data441:squeez
+data441:smoothing
+data441:detach
+data441:smoothing csv write
+data441:smoothing csv write 2
+data441:pearson
+data442:squeez
+data442:smoothing
+data442:detach
+data442:smoothing csv write
+data442:smoothing csv write 2
+data442:pearson
+data443:squeez
+data443:smoothing
+data443:detach
+data443:smoothing csv write
+data443:smoothing csv write 2
+data443:pearson
+data444:squeez
+data444:smoothing
+data444:detach
+data444:smoothing csv write
+data444:smoothing csv write 2
+data444:pearson
+data445:squeez
+data445:smoothing
+data445:detach
+data445:smoothing csv write
+data445:smoothing csv write 2
+data445:pearson
+data446:squeez
+data446:smoothing
+data446:detach
+data446:smoothing csv write
+data446:smoothing csv write 2
+data446:pearson
+data447:squeez
+data447:smoothing
+data447:detach
+data447:smoothing csv write
+data447:smoothing csv write 2
+data447:pearson
+data448:squeez
+data448:smoothing
+data448:detach
+data448:smoothing csv write
+data448:smoothing csv write 2
+data448:pearson
+data448:pearson csv write
+data449:squeez
+data449:smoothing
+data449:detach
+data449:smoothing csv write
+data449:smoothing csv write 2
+data449:pearson
+data450:squeez
+data450:smoothing
+data450:detach
+data450:smoothing csv write
+data450:smoothing csv write 2
+data450:pearson
+data451:squeez
+data451:smoothing
+data451:detach
+data451:smoothing csv write
+data451:smoothing csv write 2
+data451:pearson
+data452:squeez
+data452:smoothing
+data452:detach
+data452:smoothing csv write
+data452:smoothing csv write 2
+data452:pearson
+data453:squeez
+data453:smoothing
+data453:detach
+data453:smoothing csv write
+data453:smoothing csv write 2
+data453:pearson
+data454:squeez
+data454:smoothing
+data454:detach
+data454:smoothing csv write
+data454:smoothing csv write 2
+data454:pearson
+data455:squeez
+data455:smoothing
+data455:detach
+data455:smoothing csv write
+data455:smoothing csv write 2
+data455:pearson
+data456:squeez
+data456:smoothing
+data456:detach
+data456:smoothing csv write
+data456:smoothing csv write 2
+data456:pearson
+data457:squeez
+data457:smoothing
+data457:detach
+data457:smoothing csv write
+data457:smoothing csv write 2
+data457:pearson
+data458:squeez
+data458:smoothing
+data458:detach
+data458:smoothing csv write
+data458:smoothing csv write 2
+data458:pearson
+data459:squeez
+data459:smoothing
+data459:detach
+data459:smoothing csv write
+data459:smoothing csv write 2
+data459:pearson
+data460:squeez
+data460:smoothing
+data460:detach
+data460:smoothing csv write
+data460:smoothing csv write 2
+data460:pearson
+data461:squeez
+data461:smoothing
+data461:detach
+data461:smoothing csv write
+data461:smoothing csv write 2
+data461:pearson
+data462:squeez
+data462:smoothing
+data462:detach
+data462:smoothing csv write
+data462:smoothing csv write 2
+data462:pearson
+data463:squeez
+data463:smoothing
+data463:detach
+data463:smoothing csv write
+data463:smoothing csv write 2
+data463:pearson
+data464:squeez
+data464:smoothing
+data464:detach
+data464:smoothing csv write
+data464:smoothing csv write 2
+data464:pearson
+data465:squeez
+data465:smoothing
+data465:detach
+data465:smoothing csv write
+data465:smoothing csv write 2
+data465:pearson
+data466:squeez
+data466:smoothing
+data466:detach
+data466:smoothing csv write
+data466:smoothing csv write 2
+data466:pearson
+data467:squeez
+data467:smoothing
+data467:detach
+data467:smoothing csv write
+data467:smoothing csv write 2
+data467:pearson
+data468:squeez
+data468:smoothing
+data468:detach
+data468:smoothing csv write
+data468:smoothing csv write 2
+data468:pearson
+data469:squeez
+data469:smoothing
+data469:detach
+data469:smoothing csv write
+data469:smoothing csv write 2
+data469:pearson
+data470:squeez
+data470:smoothing
+data470:detach
+data470:smoothing csv write
+data470:smoothing csv write 2
+data470:pearson
+data471:squeez
+data471:smoothing
+data471:detach
+data471:smoothing csv write
+data471:smoothing csv write 2
+data471:pearson
+data472:squeez
+data472:smoothing
+data472:detach
+data472:smoothing csv write
+data472:smoothing csv write 2
+data472:pearson
+data473:squeez
+data473:smoothing
+data473:detach
+data473:smoothing csv write
+data473:smoothing csv write 2
+data473:pearson
+data474:squeez
+data474:smoothing
+data474:detach
+data474:smoothing csv write
+data474:smoothing csv write 2
+data474:pearson
+data475:squeez
+data475:smoothing
+data475:detach
+data475:smoothing csv write
+data475:smoothing csv write 2
+data475:pearson
+data476:squeez
+data476:smoothing
+data476:detach
+data476:smoothing csv write
+data476:smoothing csv write 2
+data476:pearson
+data477:squeez
+data477:smoothing
+data477:detach
+data477:smoothing csv write
+data477:smoothing csv write 2
+data477:pearson
+data478:squeez
+data478:smoothing
+data478:detach
+data478:smoothing csv write
+data478:smoothing csv write 2
+data478:pearson
+data479:squeez
+data479:smoothing
+data479:detach
+data479:smoothing csv write
+data479:smoothing csv write 2
+data479:pearson
+data480:squeez
+data480:smoothing
+data480:detach
+data480:smoothing csv write
+data480:smoothing csv write 2
+data480:pearson
+data481:squeez
+data481:smoothing
+data481:detach
+data481:smoothing csv write
+data481:smoothing csv write 2
+data481:pearson
+data482:squeez
+data482:smoothing
+data482:detach
+data482:smoothing csv write
+data482:smoothing csv write 2
+data482:pearson
+data483:squeez
+data483:smoothing
+data483:detach
+data483:smoothing csv write
+data483:smoothing csv write 2
+data483:pearson
+data484:squeez
+data484:smoothing
+data484:detach
+data484:smoothing csv write
+data484:smoothing csv write 2
+data484:pearson
+data485:squeez
+data485:smoothing
+data485:detach
+data485:smoothing csv write
+data485:smoothing csv write 2
+data485:pearson
+data486:squeez
+data486:smoothing
+data486:detach
+data486:smoothing csv write
+data486:smoothing csv write 2
+data486:pearson
+data487:squeez
+data487:smoothing
+data487:detach
+data487:smoothing csv write
+data487:smoothing csv write 2
+data487:pearson
+data488:squeez
+data488:smoothing
+data488:detach
+data488:smoothing csv write
+data488:smoothing csv write 2
+data488:pearson
+data489:squeez
+data489:smoothing
+data489:detach
+data489:smoothing csv write
+data489:smoothing csv write 2
+data489:pearson
+data490:squeez
+data490:smoothing
+data490:detach
+data490:smoothing csv write
+data490:smoothing csv write 2
+data490:pearson
+data491:squeez
+data491:smoothing
+data491:detach
+data491:smoothing csv write
+data491:smoothing csv write 2
+data491:pearson
+data492:squeez
+data492:smoothing
+data492:detach
+data492:smoothing csv write
+data492:smoothing csv write 2
+data492:pearson
+data493:squeez
+data493:smoothing
+data493:detach
+data493:smoothing csv write
+data493:smoothing csv write 2
+data493:pearson
+data494:squeez
+data494:smoothing
+data494:detach
+data494:smoothing csv write
+data494:smoothing csv write 2
+data494:pearson
+data495:squeez
+data495:smoothing
+data495:detach
+data495:smoothing csv write
+data495:smoothing csv write 2
+data495:pearson
+data496:squeez
+data496:smoothing
+data496:detach
+data496:smoothing csv write
+data496:smoothing csv write 2
+data496:pearson
+data497:squeez
+data497:smoothing
+data497:detach
+data497:smoothing csv write
+data497:smoothing csv write 2
+data497:pearson
+data498:squeez
+data498:smoothing
+data498:detach
+data498:smoothing csv write
+data498:smoothing csv write 2
+data498:pearson
+data499:squeez
+data499:smoothing
+data499:detach
+data499:smoothing csv write
+data499:smoothing csv write 2
+data499:pearson
+data500:squeez
+data500:smoothing
+data500:detach
+data500:smoothing csv write
+data500:smoothing csv write 2
+data500:pearson
+data501:squeez
+data501:smoothing
+data501:detach
+data501:smoothing csv write
+data501:smoothing csv write 2
+data501:pearson
+data502:squeez
+data502:smoothing
+data502:detach
+data502:smoothing csv write
+data502:smoothing csv write 2
+data502:pearson
+data503:squeez
+data503:smoothing
+data503:detach
+data503:smoothing csv write
+data503:smoothing csv write 2
+data503:pearson
+data504:squeez
+data504:smoothing
+data504:detach
+data504:smoothing csv write
+data504:smoothing csv write 2
+data504:pearson
+data505:squeez
+data505:smoothing
+data505:detach
+data505:smoothing csv write
+data505:smoothing csv write 2
+data505:pearson
+data506:squeez
+data506:smoothing
+data506:detach
+data506:smoothing csv write
+data506:smoothing csv write 2
+data506:pearson
+data507:squeez
+data507:smoothing
+data507:detach
+data507:smoothing csv write
+data507:smoothing csv write 2
+data507:pearson
+data508:squeez
+data508:smoothing
+data508:detach
+data508:smoothing csv write
+data508:smoothing csv write 2
+data508:pearson
+data509:squeez
+data509:smoothing
+data509:detach
+data509:smoothing csv write
+data509:smoothing csv write 2
+data509:pearson
+data510:squeez
+data510:smoothing
+data510:detach
+data510:smoothing csv write
+data510:smoothing csv write 2
+data510:pearson
+data511:squeez
+data511:smoothing
+data511:detach
+data511:smoothing csv write
+data511:smoothing csv write 2
+data511:pearson
+data512:squeez
+data512:smoothing
+data512:detach
+data512:smoothing csv write
+data512:smoothing csv write 2
+data512:pearson
+data512:pearson csv write
+data513:squeez
+data513:smoothing
+data513:detach
+data513:smoothing csv write
+data513:smoothing csv write 2
+data513:pearson
+data514:squeez
+data514:smoothing
+data514:detach
+data514:smoothing csv write
+data514:smoothing csv write 2
+data514:pearson
+data515:squeez
+data515:smoothing
+data515:detach
+data515:smoothing csv write
+data515:smoothing csv write 2
+data515:pearson
+data516:squeez
+data516:smoothing
+data516:detach
+data516:smoothing csv write
+data516:smoothing csv write 2
+data516:pearson
+data517:squeez
+data517:smoothing
+data517:detach
+data517:smoothing csv write
+data517:smoothing csv write 2
+data517:pearson
+data518:squeez
+data518:smoothing
+data518:detach
+data518:smoothing csv write
+data518:smoothing csv write 2
+data518:pearson
+data519:squeez
+data519:smoothing
+data519:detach
+data519:smoothing csv write
+data519:smoothing csv write 2
+data519:pearson
+data520:squeez
+data520:smoothing
+data520:detach
+data520:smoothing csv write
+data520:smoothing csv write 2
+data520:pearson
+data521:squeez
+data521:smoothing
+data521:detach
+data521:smoothing csv write
+data521:smoothing csv write 2
+data521:pearson
+data522:squeez
+data522:smoothing
+data522:detach
+data522:smoothing csv write
+data522:smoothing csv write 2
+data522:pearson
+data523:squeez
+data523:smoothing
+data523:detach
+data523:smoothing csv write
+data523:smoothing csv write 2
+data523:pearson
+data524:squeez
+data524:smoothing
+data524:detach
+data524:smoothing csv write
+data524:smoothing csv write 2
+data524:pearson
+data525:squeez
+data525:smoothing
+data525:detach
+data525:smoothing csv write
+data525:smoothing csv write 2
+data525:pearson
+data526:squeez
+data526:smoothing
+data526:detach
+data526:smoothing csv write
+data526:smoothing csv write 2
+data526:pearson
+data527:squeez
+data527:smoothing
+data527:detach
+data527:smoothing csv write
+data527:smoothing csv write 2
+data527:pearson
+data528:squeez
+data528:smoothing
+data528:detach
+data528:smoothing csv write
+data528:smoothing csv write 2
+data528:pearson
+data529:squeez
+data529:smoothing
+data529:detach
+data529:smoothing csv write
+data529:smoothing csv write 2
+data529:pearson
+data530:squeez
+data530:smoothing
+data530:detach
+data530:smoothing csv write
+data530:smoothing csv write 2
+data530:pearson
+data531:squeez
+data531:smoothing
+data531:detach
+data531:smoothing csv write
+data531:smoothing csv write 2
+data531:pearson
+data532:squeez
+data532:smoothing
+data532:detach
+data532:smoothing csv write
+data532:smoothing csv write 2
+data532:pearson
+data533:squeez
+data533:smoothing
+data533:detach
+data533:smoothing csv write
+data533:smoothing csv write 2
+data533:pearson
+data534:squeez
+data534:smoothing
+data534:detach
+data534:smoothing csv write
+data534:smoothing csv write 2
+data534:pearson
+data535:squeez
+data535:smoothing
+data535:detach
+data535:smoothing csv write
+data535:smoothing csv write 2
+data535:pearson
+data536:squeez
+data536:smoothing
+data536:detach
+data536:smoothing csv write
+data536:smoothing csv write 2
+data536:pearson
+data537:squeez
+data537:smoothing
+data537:detach
+data537:smoothing csv write
+data537:smoothing csv write 2
+data537:pearson
+data538:squeez
+data538:smoothing
+data538:detach
+data538:smoothing csv write
+data538:smoothing csv write 2
+data538:pearson
+data539:squeez
+data539:smoothing
+data539:detach
+data539:smoothing csv write
+data539:smoothing csv write 2
+data539:pearson
+data540:squeez
+data540:smoothing
+data540:detach
+data540:smoothing csv write
+data540:smoothing csv write 2
+data540:pearson
+data541:squeez
+data541:smoothing
+data541:detach
+data541:smoothing csv write
+data541:smoothing csv write 2
+data541:pearson
+data542:squeez
+data542:smoothing
+data542:detach
+data542:smoothing csv write
+data542:smoothing csv write 2
+data542:pearson
+data543:squeez
+data543:smoothing
+data543:detach
+data543:smoothing csv write
+data543:smoothing csv write 2
+data543:pearson
+data544:squeez
+data544:smoothing
+data544:detach
+data544:smoothing csv write
+data544:smoothing csv write 2
+data544:pearson
+data545:squeez
+data545:smoothing
+data545:detach
+data545:smoothing csv write
+data545:smoothing csv write 2
+data545:pearson
+data546:squeez
+data546:smoothing
+data546:detach
+data546:smoothing csv write
+data546:smoothing csv write 2
+data546:pearson
+data547:squeez
+data547:smoothing
+data547:detach
+data547:smoothing csv write
+data547:smoothing csv write 2
+data547:pearson
+data548:squeez
+data548:smoothing
+data548:detach
+data548:smoothing csv write
+data548:smoothing csv write 2
+data548:pearson
+data549:squeez
+data549:smoothing
+data549:detach
+data549:smoothing csv write
+data549:smoothing csv write 2
+data549:pearson
+data550:squeez
+data550:smoothing
+data550:detach
+data550:smoothing csv write
+data550:smoothing csv write 2
+data550:pearson
+data551:squeez
+data551:smoothing
+data551:detach
+data551:smoothing csv write
+data551:smoothing csv write 2
+data551:pearson
+data552:squeez
+data552:smoothing
+data552:detach
+data552:smoothing csv write
+data552:smoothing csv write 2
+data552:pearson
+data553:squeez
+data553:smoothing
+data553:detach
+data553:smoothing csv write
+data553:smoothing csv write 2
+data553:pearson
+data554:squeez
+data554:smoothing
+data554:detach
+data554:smoothing csv write
+data554:smoothing csv write 2
+data554:pearson
+data555:squeez
+data555:smoothing
+data555:detach
+data555:smoothing csv write
+data555:smoothing csv write 2
+data555:pearson
+data556:squeez
+data556:smoothing
+data556:detach
+data556:smoothing csv write
+data556:smoothing csv write 2
+data556:pearson
+data557:squeez
+data557:smoothing
+data557:detach
+data557:smoothing csv write
+data557:smoothing csv write 2
+data557:pearson
+data558:squeez
+data558:smoothing
+data558:detach
+data558:smoothing csv write
+data558:smoothing csv write 2
+data558:pearson
+data559:squeez
+data559:smoothing
+data559:detach
+data559:smoothing csv write
+data559:smoothing csv write 2
+data559:pearson
+data560:squeez
+data560:smoothing
+data560:detach
+data560:smoothing csv write
+data560:smoothing csv write 2
+data560:pearson
+data561:squeez
+data561:smoothing
+data561:detach
+data561:smoothing csv write
+data561:smoothing csv write 2
+data561:pearson
+data562:squeez
+data562:smoothing
+data562:detach
+data562:smoothing csv write
+data562:smoothing csv write 2
+data562:pearson
+data563:squeez
+data563:smoothing
+data563:detach
+data563:smoothing csv write
+data563:smoothing csv write 2
+data563:pearson
+data564:squeez
+data564:smoothing
+data564:detach
+data564:smoothing csv write
+data564:smoothing csv write 2
+data564:pearson
+data565:squeez
+data565:smoothing
+data565:detach
+data565:smoothing csv write
+data565:smoothing csv write 2
+data565:pearson
+data566:squeez
+data566:smoothing
+data566:detach
+data566:smoothing csv write
+data566:smoothing csv write 2
+data566:pearson
+data567:squeez
+data567:smoothing
+data567:detach
+data567:smoothing csv write
+data567:smoothing csv write 2
+data567:pearson
+data568:squeez
+data568:smoothing
+data568:detach
+data568:smoothing csv write
+data568:smoothing csv write 2
+data568:pearson
+data569:squeez
+data569:smoothing
+data569:detach
+data569:smoothing csv write
+data569:smoothing csv write 2
+data569:pearson
+data570:squeez
+data570:smoothing
+data570:detach
+data570:smoothing csv write
+data570:smoothing csv write 2
+data570:pearson
+data571:squeez
+data571:smoothing
+data571:detach
+data571:smoothing csv write
+data571:smoothing csv write 2
+data571:pearson
+data572:squeez
+data572:smoothing
+data572:detach
+data572:smoothing csv write
+data572:smoothing csv write 2
+data572:pearson
+data573:squeez
+data573:smoothing
+data573:detach
+data573:smoothing csv write
+data573:smoothing csv write 2
+data573:pearson
+data574:squeez
+data574:smoothing
+data574:detach
+data574:smoothing csv write
+data574:smoothing csv write 2
+data574:pearson
+data575:squeez
+data575:smoothing
+data575:detach
+data575:smoothing csv write
+data575:smoothing csv write 2
+data575:pearson
+data576:squeez
+data576:smoothing
+data576:detach
+data576:smoothing csv write
+data576:smoothing csv write 2
+data576:pearson
+data576:pearson csv write
+data577:squeez
+data577:smoothing
+data577:detach
+data577:smoothing csv write
+data577:smoothing csv write 2
+data577:pearson
+data578:squeez
+data578:smoothing
+data578:detach
+data578:smoothing csv write
+data578:smoothing csv write 2
+data578:pearson
+data579:squeez
+data579:smoothing
+data579:detach
+data579:smoothing csv write
+data579:smoothing csv write 2
+data579:pearson
+data580:squeez
+data580:smoothing
+data580:detach
+data580:smoothing csv write
+data580:smoothing csv write 2
+data580:pearson
+data581:squeez
+data581:smoothing
+data581:detach
+data581:smoothing csv write
+data581:smoothing csv write 2
+data581:pearson
+data582:squeez
+data582:smoothing
+data582:detach
+data582:smoothing csv write
+data582:smoothing csv write 2
+data582:pearson
+data583:squeez
+data583:smoothing
+data583:detach
+data583:smoothing csv write
+data583:smoothing csv write 2
+data583:pearson
+data584:squeez
+data584:smoothing
+data584:detach
+data584:smoothing csv write
+data584:smoothing csv write 2
+data584:pearson
+data585:squeez
+data585:smoothing
+data585:detach
+data585:smoothing csv write
+data585:smoothing csv write 2
+data585:pearson
+data586:squeez
+data586:smoothing
+data586:detach
+data586:smoothing csv write
+data586:smoothing csv write 2
+data586:pearson
+data587:squeez
+data587:smoothing
+data587:detach
+data587:smoothing csv write
+data587:smoothing csv write 2
+data587:pearson
+data588:squeez
+data588:smoothing
+data588:detach
+data588:smoothing csv write
+data588:smoothing csv write 2
+data588:pearson
+data589:squeez
+data589:smoothing
+data589:detach
+data589:smoothing csv write
+data589:smoothing csv write 2
+data589:pearson
+data590:squeez
+data590:smoothing
+data590:detach
+data590:smoothing csv write
+data590:smoothing csv write 2
+data590:pearson
+data591:squeez
+data591:smoothing
+data591:detach
+data591:smoothing csv write
+data591:smoothing csv write 2
+data591:pearson
+data592:squeez
+data592:smoothing
+data592:detach
+data592:smoothing csv write
+data592:smoothing csv write 2
+data592:pearson
+data593:squeez
+data593:smoothing
+data593:detach
+data593:smoothing csv write
+data593:smoothing csv write 2
+data593:pearson
+data594:squeez
+data594:smoothing
+data594:detach
+data594:smoothing csv write
+data594:smoothing csv write 2
+data594:pearson
+data595:squeez
+data595:smoothing
+data595:detach
+data595:smoothing csv write
+data595:smoothing csv write 2
+data595:pearson
+data596:squeez
+data596:smoothing
+data596:detach
+data596:smoothing csv write
+data596:smoothing csv write 2
+data596:pearson
+data597:squeez
+data597:smoothing
+data597:detach
+data597:smoothing csv write
+data597:smoothing csv write 2
+data597:pearson
+data598:squeez
+data598:smoothing
+data598:detach
+data598:smoothing csv write
+data598:smoothing csv write 2
+data598:pearson
+data599:squeez
+data599:smoothing
+data599:detach
+data599:smoothing csv write
+data599:smoothing csv write 2
+data599:pearson
+data600:squeez
+data600:smoothing
+data600:detach
+data600:smoothing csv write
+data600:smoothing csv write 2
+data600:pearson
+data601:squeez
+data601:smoothing
+data601:detach
+data601:smoothing csv write
+data601:smoothing csv write 2
+data601:pearson
+data602:squeez
+data602:smoothing
+data602:detach
+data602:smoothing csv write
+data602:smoothing csv write 2
+data602:pearson
+data603:squeez
+data603:smoothing
+data603:detach
+data603:smoothing csv write
+data603:smoothing csv write 2
+data603:pearson
+data604:squeez
+data604:smoothing
+data604:detach
+data604:smoothing csv write
+data604:smoothing csv write 2
+data604:pearson
+data605:squeez
+data605:smoothing
+data605:detach
+data605:smoothing csv write
+data605:smoothing csv write 2
+data605:pearson
+data606:squeez
+data606:smoothing
+data606:detach
+data606:smoothing csv write
+data606:smoothing csv write 2
+data606:pearson
+data607:squeez
+data607:smoothing
+data607:detach
+data607:smoothing csv write
+data607:smoothing csv write 2
+data607:pearson
+data608:squeez
+data608:smoothing
+data608:detach
+data608:smoothing csv write
+data608:smoothing csv write 2
+data608:pearson
+data609:squeez
+data609:smoothing
+data609:detach
+data609:smoothing csv write
+data609:smoothing csv write 2
+data609:pearson
+data610:squeez
+data610:smoothing
+data610:detach
+data610:smoothing csv write
+data610:smoothing csv write 2
+data610:pearson
+data611:squeez
+data611:smoothing
+data611:detach
+data611:smoothing csv write
+data611:smoothing csv write 2
+data611:pearson
+data612:squeez
+data612:smoothing
+data612:detach
+data612:smoothing csv write
+data612:smoothing csv write 2
+data612:pearson
+data613:squeez
+data613:smoothing
+data613:detach
+data613:smoothing csv write
+data613:smoothing csv write 2
+data613:pearson
+data614:squeez
+data614:smoothing
+data614:detach
+data614:smoothing csv write
+data614:smoothing csv write 2
+data614:pearson
+data615:squeez
+data615:smoothing
+data615:detach
+data615:smoothing csv write
+data615:smoothing csv write 2
+data615:pearson
+data616:squeez
+data616:smoothing
+data616:detach
+data616:smoothing csv write
+data616:smoothing csv write 2
+data616:pearson
+data617:squeez
+data617:smoothing
+data617:detach
+data617:smoothing csv write
+data617:smoothing csv write 2
+data617:pearson
+data618:squeez
+data618:smoothing
+data618:detach
+data618:smoothing csv write
+data618:smoothing csv write 2
+data618:pearson
+data619:squeez
+data619:smoothing
+data619:detach
+data619:smoothing csv write
+data619:smoothing csv write 2
+data619:pearson
+data620:squeez
+data620:smoothing
+data620:detach
+data620:smoothing csv write
+data620:smoothing csv write 2
+data620:pearson
+data621:squeez
+data621:smoothing
+data621:detach
+data621:smoothing csv write
+data621:smoothing csv write 2
+data621:pearson
+data622:squeez
+data622:smoothing
+data622:detach
+data622:smoothing csv write
+data622:smoothing csv write 2
+data622:pearson
+data623:squeez
+data623:smoothing
+data623:detach
+data623:smoothing csv write
+data623:smoothing csv write 2
+data623:pearson
+data624:squeez
+data624:smoothing
+data624:detach
+data624:smoothing csv write
+data624:smoothing csv write 2
+data624:pearson
+data625:squeez
+data625:smoothing
+data625:detach
+data625:smoothing csv write
+data625:smoothing csv write 2
+data625:pearson
+data626:squeez
+data626:smoothing
+data626:detach
+data626:smoothing csv write
+data626:smoothing csv write 2
+data626:pearson
+data627:squeez
+data627:smoothing
+data627:detach
+data627:smoothing csv write
+data627:smoothing csv write 2
+data627:pearson
+data628:squeez
+data628:smoothing
+data628:detach
+data628:smoothing csv write
+data628:smoothing csv write 2
+data628:pearson
+data629:squeez
+data629:smoothing
+data629:detach
+data629:smoothing csv write
+data629:smoothing csv write 2
+data629:pearson
+data630:squeez
+data630:smoothing
+data630:detach
+data630:smoothing csv write
+data630:smoothing csv write 2
+data630:pearson
+data631:squeez
+data631:smoothing
+data631:detach
+data631:smoothing csv write
+data631:smoothing csv write 2
+data631:pearson
+data632:squeez
+data632:smoothing
+data632:detach
+data632:smoothing csv write
+data632:smoothing csv write 2
+data632:pearson
+data633:squeez
+data633:smoothing
+data633:detach
+data633:smoothing csv write
+data633:smoothing csv write 2
+data633:pearson
+data634:squeez
+data634:smoothing
+data634:detach
+data634:smoothing csv write
+data634:smoothing csv write 2
+data634:pearson
+data635:squeez
+data635:smoothing
+data635:detach
+data635:smoothing csv write
+data635:smoothing csv write 2
+data635:pearson
+data636:squeez
+data636:smoothing
+data636:detach
+data636:smoothing csv write
+data636:smoothing csv write 2
+data636:pearson
+data637:squeez
+data637:smoothing
+data637:detach
+data637:smoothing csv write
+data637:smoothing csv write 2
+data637:pearson
+data638:squeez
+data638:smoothing
+data638:detach
+data638:smoothing csv write
+data638:smoothing csv write 2
+data638:pearson
+data639:squeez
+data639:smoothing
+data639:detach
+data639:smoothing csv write
+data639:smoothing csv write 2
+data639:pearson
+data640:squeez
+data640:smoothing
+data640:detach
+data640:smoothing csv write
+data640:smoothing csv write 2
+data640:pearson
+data640:pearson csv write
+data641:squeez
+data641:smoothing
+data641:detach
+data641:smoothing csv write
+data641:smoothing csv write 2
+data641:pearson
+data642:squeez
+data642:smoothing
+data642:detach
+data642:smoothing csv write
+data642:smoothing csv write 2
+data642:pearson
+data643:squeez
+data643:smoothing
+data643:detach
+data643:smoothing csv write
+data643:smoothing csv write 2
+data643:pearson
+data644:squeez
+data644:smoothing
+data644:detach
+data644:smoothing csv write
+data644:smoothing csv write 2
+data644:pearson
+data645:squeez
+data645:smoothing
+data645:detach
+data645:smoothing csv write
+data645:smoothing csv write 2
+data645:pearson
+data646:squeez
+data646:smoothing
+data646:detach
+data646:smoothing csv write
+data646:smoothing csv write 2
+data646:pearson
+data647:squeez
+data647:smoothing
+data647:detach
+data647:smoothing csv write
+data647:smoothing csv write 2
+data647:pearson
+data648:squeez
+data648:smoothing
+data648:detach
+data648:smoothing csv write
+data648:smoothing csv write 2
+data648:pearson
+data649:squeez
+data649:smoothing
+data649:detach
+data649:smoothing csv write
+data649:smoothing csv write 2
+data649:pearson
+data650:squeez
+data650:smoothing
+data650:detach
+data650:smoothing csv write
+data650:smoothing csv write 2
+data650:pearson
+data651:squeez
+data651:smoothing
+data651:detach
+data651:smoothing csv write
+data651:smoothing csv write 2
+data651:pearson
+data652:squeez
+data652:smoothing
+data652:detach
+data652:smoothing csv write
+data652:smoothing csv write 2
+data652:pearson
+data653:squeez
+data653:smoothing
+data653:detach
+data653:smoothing csv write
+data653:smoothing csv write 2
+data653:pearson
+data654:squeez
+data654:smoothing
+data654:detach
+data654:smoothing csv write
+data654:smoothing csv write 2
+data654:pearson
+data655:squeez
+data655:smoothing
+data655:detach
+data655:smoothing csv write
+data655:smoothing csv write 2
+data655:pearson
+data656:squeez
+data656:smoothing
+data656:detach
+data656:smoothing csv write
+data656:smoothing csv write 2
+data656:pearson
+data657:squeez
+data657:smoothing
+data657:detach
+data657:smoothing csv write
+data657:smoothing csv write 2
+data657:pearson
+data658:squeez
+data658:smoothing
+data658:detach
+data658:smoothing csv write
+data658:smoothing csv write 2
+data658:pearson
+data659:squeez
+data659:smoothing
+data659:detach
+data659:smoothing csv write
+data659:smoothing csv write 2
+data659:pearson
+data660:squeez
+data660:smoothing
+data660:detach
+data660:smoothing csv write
+data660:smoothing csv write 2
+data660:pearson
+data661:squeez
+data661:smoothing
+data661:detach
+data661:smoothing csv write
+data661:smoothing csv write 2
+data661:pearson
+data662:squeez
+data662:smoothing
+data662:detach
+data662:smoothing csv write
+data662:smoothing csv write 2
+data662:pearson
+data663:squeez
+data663:smoothing
+data663:detach
+data663:smoothing csv write
+data663:smoothing csv write 2
+data663:pearson
+data664:squeez
+data664:smoothing
+data664:detach
+data664:smoothing csv write
+data664:smoothing csv write 2
+data664:pearson
+data665:squeez
+data665:smoothing
+data665:detach
+data665:smoothing csv write
+data665:smoothing csv write 2
+data665:pearson
+data666:squeez
+data666:smoothing
+data666:detach
+data666:smoothing csv write
+data666:smoothing csv write 2
+data666:pearson
+data667:squeez
+data667:smoothing
+data667:detach
+data667:smoothing csv write
+data667:smoothing csv write 2
+data667:pearson
+data668:squeez
+data668:smoothing
+data668:detach
+data668:smoothing csv write
+data668:smoothing csv write 2
+data668:pearson
+data669:squeez
+data669:smoothing
+data669:detach
+data669:smoothing csv write
+data669:smoothing csv write 2
+data669:pearson
+data670:squeez
+data670:smoothing
+data670:detach
+data670:smoothing csv write
+data670:smoothing csv write 2
+data670:pearson
+data671:squeez
+data671:smoothing
+data671:detach
+data671:smoothing csv write
+data671:smoothing csv write 2
+data671:pearson
+data672:squeez
+data672:smoothing
+data672:detach
+data672:smoothing csv write
+data672:smoothing csv write 2
+data672:pearson
+data673:squeez
+data673:smoothing
+data673:detach
+data673:smoothing csv write
+data673:smoothing csv write 2
+data673:pearson
+data674:squeez
+data674:smoothing
+data674:detach
+data674:smoothing csv write
+data674:smoothing csv write 2
+data674:pearson
+data675:squeez
+data675:smoothing
+data675:detach
+data675:smoothing csv write
+data675:smoothing csv write 2
+data675:pearson
+data676:squeez
+data676:smoothing
+data676:detach
+data676:smoothing csv write
+data676:smoothing csv write 2
+data676:pearson
+data677:squeez
+data677:smoothing
+data677:detach
+data677:smoothing csv write
+data677:smoothing csv write 2
+data677:pearson
+data678:squeez
+data678:smoothing
+data678:detach
+data678:smoothing csv write
+data678:smoothing csv write 2
+data678:pearson
+data679:squeez
+data679:smoothing
+data679:detach
+data679:smoothing csv write
+data679:smoothing csv write 2
+data679:pearson
+data680:squeez
+data680:smoothing
+data680:detach
+data680:smoothing csv write
+data680:smoothing csv write 2
+data680:pearson
+data681:squeez
+data681:smoothing
+data681:detach
+data681:smoothing csv write
+data681:smoothing csv write 2
+data681:pearson
+data682:squeez
+data682:smoothing
+data682:detach
+data682:smoothing csv write
+data682:smoothing csv write 2
+data682:pearson
+data683:squeez
+data683:smoothing
+data683:detach
+data683:smoothing csv write
+data683:smoothing csv write 2
+data683:pearson
+data684:squeez
+data684:smoothing
+data684:detach
+data684:smoothing csv write
+data684:smoothing csv write 2
+data684:pearson
+data685:squeez
+data685:smoothing
+data685:detach
+data685:smoothing csv write
+data685:smoothing csv write 2
+data685:pearson
+data686:squeez
+data686:smoothing
+data686:detach
+data686:smoothing csv write
+data686:smoothing csv write 2
+data686:pearson
+data687:squeez
+data687:smoothing
+data687:detach
+data687:smoothing csv write
+data687:smoothing csv write 2
+data687:pearson
+data688:squeez
+data688:smoothing
+data688:detach
+data688:smoothing csv write
+data688:smoothing csv write 2
+data688:pearson
+data689:squeez
+data689:smoothing
+data689:detach
+data689:smoothing csv write
+data689:smoothing csv write 2
+data689:pearson
+data690:squeez
+data690:smoothing
+data690:detach
+data690:smoothing csv write
+data690:smoothing csv write 2
+data690:pearson
+data691:squeez
+data691:smoothing
+data691:detach
+data691:smoothing csv write
+data691:smoothing csv write 2
+data691:pearson
+data692:squeez
+data692:smoothing
+data692:detach
+data692:smoothing csv write
+data692:smoothing csv write 2
+data692:pearson
+data693:squeez
+data693:smoothing
+data693:detach
+data693:smoothing csv write
+data693:smoothing csv write 2
+data693:pearson
+data694:squeez
+data694:smoothing
+data694:detach
+data694:smoothing csv write
+data694:smoothing csv write 2
+data694:pearson
+data695:squeez
+data695:smoothing
+data695:detach
+data695:smoothing csv write
+data695:smoothing csv write 2
+data695:pearson
+data696:squeez
+data696:smoothing
+data696:detach
+data696:smoothing csv write
+data696:smoothing csv write 2
+data696:pearson
+data697:squeez
+data697:smoothing
+data697:detach
+data697:smoothing csv write
+data697:smoothing csv write 2
+data697:pearson
+data698:squeez
+data698:smoothing
+data698:detach
+data698:smoothing csv write
+data698:smoothing csv write 2
+data698:pearson
+data699:squeez
+data699:smoothing
+data699:detach
+data699:smoothing csv write
+data699:smoothing csv write 2
+data699:pearson
+data700:squeez
+data700:smoothing
+data700:detach
+data700:smoothing csv write
+data700:smoothing csv write 2
+data700:pearson
+data701:squeez
+data701:smoothing
+data701:detach
+data701:smoothing csv write
+data701:smoothing csv write 2
+data701:pearson
+data702:squeez
+data702:smoothing
+data702:detach
+data702:smoothing csv write
+data702:smoothing csv write 2
+data702:pearson
+data703:squeez
+data703:smoothing
+data703:detach
+data703:smoothing csv write
+data703:smoothing csv write 2
+data703:pearson
+data704:squeez
+data704:smoothing
+data704:detach
+data704:smoothing csv write
+data704:smoothing csv write 2
+data704:pearson
+data704:pearson csv write
+data705:squeez
+data705:smoothing
+data705:detach
+data705:smoothing csv write
+data705:smoothing csv write 2
+data705:pearson
+data706:squeez
+data706:smoothing
+data706:detach
+data706:smoothing csv write
+data706:smoothing csv write 2
+data706:pearson
+data707:squeez
+data707:smoothing
+data707:detach
+data707:smoothing csv write
+data707:smoothing csv write 2
+data707:pearson
+data708:squeez
+data708:smoothing
+data708:detach
+data708:smoothing csv write
+data708:smoothing csv write 2
+data708:pearson
+data709:squeez
+data709:smoothing
+data709:detach
+data709:smoothing csv write
+data709:smoothing csv write 2
+data709:pearson
+data710:squeez
+data710:smoothing
+data710:detach
+data710:smoothing csv write
+data710:smoothing csv write 2
+data710:pearson
+data711:squeez
+data711:smoothing
+data711:detach
+data711:smoothing csv write
+data711:smoothing csv write 2
+data711:pearson
+data712:squeez
+data712:smoothing
+data712:detach
+data712:smoothing csv write
+data712:smoothing csv write 2
+data712:pearson
+data713:squeez
+data713:smoothing
+data713:detach
+data713:smoothing csv write
+data713:smoothing csv write 2
+data713:pearson
+data714:squeez
+data714:smoothing
+data714:detach
+data714:smoothing csv write
+data714:smoothing csv write 2
+data714:pearson
+data715:squeez
+data715:smoothing
+data715:detach
+data715:smoothing csv write
+data715:smoothing csv write 2
+data715:pearson
+data716:squeez
+data716:smoothing
+data716:detach
+data716:smoothing csv write
+data716:smoothing csv write 2
+data716:pearson
+data717:squeez
+data717:smoothing
+data717:detach
+data717:smoothing csv write
+data717:smoothing csv write 2
+data717:pearson
+data718:squeez
+data718:smoothing
+data718:detach
+data718:smoothing csv write
+data718:smoothing csv write 2
+data718:pearson
+data719:squeez
+data719:smoothing
+data719:detach
+data719:smoothing csv write
+data719:smoothing csv write 2
+data719:pearson
+data720:squeez
+data720:smoothing
+data720:detach
+data720:smoothing csv write
+data720:smoothing csv write 2
+data720:pearson
+data721:squeez
+data721:smoothing
+data721:detach
+data721:smoothing csv write
+data721:smoothing csv write 2
+data721:pearson
+data722:squeez
+data722:smoothing
+data722:detach
+data722:smoothing csv write
+data722:smoothing csv write 2
+data722:pearson
+data723:squeez
+data723:smoothing
+data723:detach
+data723:smoothing csv write
+data723:smoothing csv write 2
+data723:pearson
+data724:squeez
+data724:smoothing
+data724:detach
+data724:smoothing csv write
+data724:smoothing csv write 2
+data724:pearson
+data725:squeez
+data725:smoothing
+data725:detach
+data725:smoothing csv write
+data725:smoothing csv write 2
+data725:pearson
+data726:squeez
+data726:smoothing
+data726:detach
+data726:smoothing csv write
+data726:smoothing csv write 2
+data726:pearson
+data727:squeez
+data727:smoothing
+data727:detach
+data727:smoothing csv write
+data727:smoothing csv write 2
+data727:pearson
+data728:squeez
+data728:smoothing
+data728:detach
+data728:smoothing csv write
+data728:smoothing csv write 2
+data728:pearson
+data729:squeez
+data729:smoothing
+data729:detach
+data729:smoothing csv write
+data729:smoothing csv write 2
+data729:pearson
+data730:squeez
+data730:smoothing
+data730:detach
+data730:smoothing csv write
+data730:smoothing csv write 2
+data730:pearson
+data731:squeez
+data731:smoothing
+data731:detach
+data731:smoothing csv write
+data731:smoothing csv write 2
+data731:pearson
+data732:squeez
+data732:smoothing
+data732:detach
+data732:smoothing csv write
+data732:smoothing csv write 2
+data732:pearson
+data733:squeez
+data733:smoothing
+data733:detach
+data733:smoothing csv write
+data733:smoothing csv write 2
+data733:pearson
+data734:squeez
+data734:smoothing
+data734:detach
+data734:smoothing csv write
+data734:smoothing csv write 2
+data734:pearson
+data735:squeez
+data735:smoothing
+data735:detach
+data735:smoothing csv write
+data735:smoothing csv write 2
+data735:pearson
+data736:squeez
+data736:smoothing
+data736:detach
+data736:smoothing csv write
+data736:smoothing csv write 2
+data736:pearson
+data737:squeez
+data737:smoothing
+data737:detach
+data737:smoothing csv write
+data737:smoothing csv write 2
+data737:pearson
+data738:squeez
+data738:smoothing
+data738:detach
+data738:smoothing csv write
+data738:smoothing csv write 2
+data738:pearson
+data739:squeez
+data739:smoothing
+data739:detach
+data739:smoothing csv write
+data739:smoothing csv write 2
+data739:pearson
+data740:squeez
+data740:smoothing
+data740:detach
+data740:smoothing csv write
+data740:smoothing csv write 2
+data740:pearson
+data741:squeez
+data741:smoothing
+data741:detach
+data741:smoothing csv write
+data741:smoothing csv write 2
+data741:pearson
+data742:squeez
+data742:smoothing
+data742:detach
+data742:smoothing csv write
+data742:smoothing csv write 2
+data742:pearson
+data743:squeez
+data743:smoothing
+data743:detach
+data743:smoothing csv write
+data743:smoothing csv write 2
+data743:pearson
+data744:squeez
+data744:smoothing
+data744:detach
+data744:smoothing csv write
+data744:smoothing csv write 2
+data744:pearson
+data745:squeez
+data745:smoothing
+data745:detach
+data745:smoothing csv write
+data745:smoothing csv write 2
+data745:pearson
+data746:squeez
+data746:smoothing
+data746:detach
+data746:smoothing csv write
+data746:smoothing csv write 2
+data746:pearson
+data747:squeez
+data747:smoothing
+data747:detach
+data747:smoothing csv write
+data747:smoothing csv write 2
+data747:pearson
+data748:squeez
+data748:smoothing
+data748:detach
+data748:smoothing csv write
+data748:smoothing csv write 2
+data748:pearson
+data749:squeez
+data749:smoothing
+data749:detach
+data749:smoothing csv write
+data749:smoothing csv write 2
+data749:pearson
+data750:squeez
+data750:smoothing
+data750:detach
+data750:smoothing csv write
+data750:smoothing csv write 2
+data750:pearson
+data751:squeez
+data751:smoothing
+data751:detach
+data751:smoothing csv write
+data751:smoothing csv write 2
+data751:pearson
+data752:squeez
+data752:smoothing
+data752:detach
+data752:smoothing csv write
+data752:smoothing csv write 2
+data752:pearson
+data753:squeez
+data753:smoothing
+data753:detach
+data753:smoothing csv write
+data753:smoothing csv write 2
+data753:pearson
+data754:squeez
+data754:smoothing
+data754:detach
+data754:smoothing csv write
+data754:smoothing csv write 2
+data754:pearson
+data755:squeez
+data755:smoothing
+data755:detach
+data755:smoothing csv write
+data755:smoothing csv write 2
+data755:pearson
+data756:squeez
+data756:smoothing
+data756:detach
+data756:smoothing csv write
+data756:smoothing csv write 2
+data756:pearson
+data757:squeez
+data757:smoothing
+data757:detach
+data757:smoothing csv write
+data757:smoothing csv write 2
+data757:pearson
+data758:squeez
+data758:smoothing
+data758:detach
+data758:smoothing csv write
+data758:smoothing csv write 2
+data758:pearson
+data759:squeez
+data759:smoothing
+data759:detach
+data759:smoothing csv write
+data759:smoothing csv write 2
+data759:pearson
+data760:squeez
+data760:smoothing
+data760:detach
+data760:smoothing csv write
+data760:smoothing csv write 2
+data760:pearson
+data761:squeez
