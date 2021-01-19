@@ -4569,4 +4569,5 @@ data760:detach
 data760:smoothing csv write
 data760:smoothing csv write 2
 data760:pearson
-data761:squeez
+data761:pearson csv write
+test data loss:0.059444027952849865, test r2 score:nan, max:nan index37193:, min:nan index37193
