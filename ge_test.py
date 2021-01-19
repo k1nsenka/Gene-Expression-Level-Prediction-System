@@ -185,6 +185,8 @@ def ge_test_peason_fun(data, n_device, batchsize, n_targets, model_path):
             #バッチの中身一つずつについて計算していく
             for i in range(batchsize):
                 count = count + 1
+                if count == 761:
+                    break
                 with open('pearson_test_log.txt', 'a') as f:
                     f.write('data{}:squeez\n'.format(count))
                 t = torch.squeeze(test_out[i])
