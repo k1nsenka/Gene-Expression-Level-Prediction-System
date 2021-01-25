@@ -9,7 +9,6 @@ row_f =[]
 with open('./smoothing/smoothing_pearsonr.csv', 'r') as fp :
     reader = csv.reader(fp)
     for row in reader:
-        #float32()
         for r in row:
             ele = float(r)
             if math.isnan(ele):
@@ -27,4 +26,5 @@ with open('./smoothing/smoothing_pearsonr.csv', 'r') as fp :
 
 
 avr_test_score = np.mean(test_score)
+var_test_score = np.var(test_score)
 print('test pearson score:{}, \n max:{} index:{}, \n min:{} index{}'.format(avr_test_score, np.max(test_score), np.argmax(test_score), np.min(test_score), np.argmin(test_score)))
