@@ -203,14 +203,14 @@ def ge_test_peason_fun(data, n_device, batchsize, n_targets, model_path):
                 #(1024, n_targets)testデータ番号に応じてcsvファイルにデータを格納、720ファイル*2できるはず
                 with open('pearson_test_log.txt', 'a') as f:
                     f.write('data{}:smoothing csv write\n'.format(count))
-                with open('/home/abe/data/genome_data/smoothing/test_out/smoothing_test_out{}.csv'.format(count), 'w') as fc :
-                    writer = csv.writer(fc)
-                    writer.writerows(s_t)
+                #with open('/home/abe/data/genome_data/smoothing/test_out/smoothing_test_out{}.csv'.format(count), 'w') as fc :
+                #    writer = csv.writer(fc)
+                #    writer.writerows(s_t)
                 with open('pearson_test_log.txt', 'a') as f:
                     f.write('data{}:smoothing csv write 2\n'.format(count))
-                with open('/home/abe/data/genome_data/smoothing/out/smoothing_out{}.csv'.format(count), 'w') as fc :
-                    writer = csv.writer(fc)
-                    writer.writerows(s_o)
+                #with open('/home/abe/data/genome_data/smoothing/out/smoothing_out{}.csv'.format(count), 'w') as fc :
+                #    writer = csv.writer(fc)
+                #    writer.writerows(s_o)
                 #ピアソン相関の計算(n_targets)
                 s_t = torch.tensor(s_t)
                 s_o = torch.tensor(s_o)
@@ -221,6 +221,7 @@ def ge_test_peason_fun(data, n_device, batchsize, n_targets, model_path):
             #(batchsize, n_targets)ずつファイルに追記していく
             with open('pearson_test_log.txt', 'a') as f:
                 f.write('data{}:pearson csv write\n'.format(count))
+            print(len(test_score))
             with open('./smoothing/smoothing_pearsonr.csv', 'a') as fp :
                 writer = csv.writer(fp)
                 writer.writerows(test_score)
