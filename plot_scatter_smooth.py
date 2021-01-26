@@ -1,25 +1,24 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 data_set_x = np.loadtxt(
-    fname='/home/abe/data/genome_data/data310/raw/data_out310.csv', #読み込むファイルのパスと名前
+    fname='/home/abe/data/genome_data/data310/raw/smoothing_out310.csv', #読み込むファイルのパスと名前
     dtype='float', #floatで読み込む
     delimiter=',', #csvなのでカンマで区切る
 )
 data_set_y = np.loadtxt(
-    fname='/home/abe/data/genome_data/data310/raw/data_test_out310.csv', #読み込むファイルのパスと名前
+    fname='/home/abe/data/genome_data/data310/raw/smoothing_test_out310.csv', #読み込むファイルのパスと名前
     dtype='float', #floatで読み込む
     delimiter=',', #csvなのでカンマで区切る
 )
 '''
 data_set_x = np.loadtxt(
-    fname='/Users/nemomac2/Desktop/data310/raw/data_out310.csv', #読み込むファイルのパスと名前
+    fname='/Users/nemomac2/Desktop/data310/raw/smoothing_out310.csv', #読み込むファイルのパスと名前
     dtype='float', #floatで読み込む
     delimiter=',', #csvなのでカンマで区切る
 )
 data_set_y = np.loadtxt(
-    fname='/Users/nemomac2/Desktop/data310/raw/data_test_out310.csv', #読み込むファイルのパスと名前
+    fname='/Users/nemomac2/Desktop/data310/raw/smoothing_test_out310.csv', #読み込むファイルのパスと名前
     dtype='float', #floatで読み込む
     delimiter=',', #csvなのでカンマで区切る
 )
@@ -39,5 +38,5 @@ plt.title('')
 plt.xlabel('')
 plt.ylabel('')
 plt.grid()
-plt.savefig('scatter.png')
+plt.savefig('smooth_scatter.png')
 plt.clf()
