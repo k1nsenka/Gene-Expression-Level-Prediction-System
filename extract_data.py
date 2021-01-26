@@ -4,9 +4,9 @@ import torch.nn as nn
 import sys
 import csv
 import os
-import matplotlib.pyplot as plt
 import tqdm
 import numpy as np
+import h5py
 
 
 import ge_data
