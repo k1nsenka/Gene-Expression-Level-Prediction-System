@@ -184,3 +184,4 @@ venv.bak/
 /smoothing/out/*.csv
 /smoothing/test_out/*.csv
 /smoothing/*.csv
+*.png
