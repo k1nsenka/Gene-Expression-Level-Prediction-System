@@ -46,6 +46,12 @@ def ge_test_extract_fun(data, n_device, batchsize, n_targets, model_path, n_extr
             if count == n_extract:
                 test_out = test_out.to("cpu")
                 out = out.to("cpu")
+                print(test_out.shape)
+                print(out.shape)
+                test_out = torch.squeeze(test_out)
+                out = torch.squeeze(out)
+                print(test_out.shape)
+                print(out.shape)
                 with open('data_extract_log.txt', 'a') as f:
                     f.write('data{}:tensor detach numpy\n'.format(count))
                 test_out = test_out.detach().numpy()
@@ -53,7 +59,7 @@ def ge_test_extract_fun(data, n_device, batchsize, n_targets, model_path, n_extr
                 #testデータ番号に応じてcsvファイルにデータを抽出(4229, 1024)
                 with open('data_extract_log.txt', 'a') as f:
                     f.write('data{}:test out data csv write\n'.format(count))
-                with open('/home/abe/data/genome_data/data310/test_out/data_test_out{}.csv'.format(count), 'w') as fc :
+                with open('/home/abe/data/genome_data/data310/data_test_out{}.csv'.format(count), 'w') as fc :
                     writer = csv.writer(fc)
                     writer.writerows(test_out)
                 with open('data_extract_log.txt', 'a') as f:
@@ -66,7 +72,7 @@ def ge_test_extract_fun(data, n_device, batchsize, n_targets, model_path, n_extr
                     f.write('data{}:data went through\n'.format(count))
     print('data extract finished')
     with open('data_extract_log.txt', 'a') as f:
-        f.write('data extract finished'.format)
+        f.write('data extract finished')
 
 
 #データ
