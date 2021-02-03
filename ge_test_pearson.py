@@ -25,4 +25,4 @@ batchsize = 64
 
 #実行
 model_path = './model_checkpoint/checkpoint_fold0.pth'
-ge_test.ge_test_peason_fun(data, n_device, batchsize, n_targets, model_path)
+ge_test.ge_test_peason_raw_fun(data, n_device, batchsize, n_targets, model_path)

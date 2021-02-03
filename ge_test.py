@@ -230,3 +230,73 @@ def ge_test_peason_fun(data, n_device, batchsize, n_targets, model_path):
     print('test data loss:{}, test r2 score:{}, \n max:{} index{}:, \n min:{} index{}'.format(avr_test_loss, avr_test_score, np.max(test_score), np.argmax(test_score), np.min(test_score), np.argmin(test_score)))
     with open('pearson_test_log.txt', 'a') as f:
         f.write('test data loss:{}, test r2 score:{}, max:{} index{}:, min:{} index{}'.format(avr_test_loss, avr_test_score, np.max(test_score), np.argmax(test_score), np.min(test_score), np.argmin(test_score)))
+
+
+
+def ge_test_peason_raw_fun(data, n_device, batchsize, n_targets, model_path):
+    #データロード
+    test_set = ge_data.ge_test_dataset(data)
+    test_loader = DataLoader(test_set, batch_size = batchsize, shuffle=False, num_workers=50)
+    device_str = "cuda:{}".format(n_device)
+    device = torch.device(device_str if torch.cuda.is_available() else "cpu")
+    print("used device : ", device)
+    #損失関数
+    loss_fun = nn.PoissonNLLLoss()
+    #モデルの読み込み
+    test_model = ge_nn.Net(n_targets=n_targets)
+    test_model.to(device)
+    test_model.load_state_dict(torch.load(model_path))
+    test_model.eval()
+    #損失の記録
+    test_loss = []
+    #テストデータ番号
+    count = 0
+    with torch.no_grad():
+        for (test_in, test_out) in test_loader:
+            #モデル入力
+            test_in,  test_out = test_in.to(device), test_out.to(device)
+            out = test_model(test_in)
+            #損失計算
+            loss = loss_fun(out, test_out)
+            test_loss.append(loss.item())
+            #グラフ描画
+            out = torch.exp(out)
+            #平滑化、相関係数を計算
+            test_out = test_out.to("cpu")
+            out = out.to("cpu")
+            test_out = torch.chunk(test_out, batchsize, dim=0)
+            out = torch.chunk(out, batchsize, dim=0)
+            #配列格納用
+            smooth_out = []
+            smooth_test_out = []
+            test_score = []
+            #バッチの中身一つずつについて計算していく
+            for i in range(batchsize):
+                count = count + 1
+                if count == 761:
+                    break
+                with open('pearson_test_log.txt', 'a') as f:
+                    f.write('data{}:squeez\n'.format(count))
+                t = torch.squeeze(test_out[i])
+                o = torch.squeeze(out[i])
+                s_t = t
+                s_o = o
+                #ピアソン相関の計算(n_targets)
+                s_t = torch.tensor(s_t)
+                s_o = torch.tensor(s_o)
+                with open('pearson_test_log.txt', 'a') as f:
+                    f.write('data{}:pearson\n'.format(count))
+                pearson = ge_loss.pearsonR(s_o, s_t, n_targets)
+                test_score.append(pearson)
+            #(batchsize, n_targets)ずつファイルに追記していく
+            with open('pearson_test_log.txt', 'a') as f:
+                f.write('data{}:pearson csv write\n'.format(count))
+            print(len(test_score))
+            with open('./smoothing/pearsonr.csv', 'a') as fp :
+                writer = csv.writer(fp)
+                writer.writerows(test_score)
+            avr_test_loss = np.average(test_loss)
+            avr_test_score = np.mean(test_score)
+    print('test data loss:{}, test r2 score:{}, \n max:{} index{}:, \n min:{} index{}'.format(avr_test_loss, avr_test_score, np.max(test_score), np.argmax(test_score), np.min(test_score), np.argmin(test_score)))
+    with open('pearson_test_log.txt', 'a') as f:
+        f.write('test data loss:{}, test r2 score:{}, max:{} index{}:, min:{} index{}'.format(avr_test_loss, avr_test_score, np.max(test_score), np.argmax(test_score), np.min(test_score), np.argmin(test_score)))
