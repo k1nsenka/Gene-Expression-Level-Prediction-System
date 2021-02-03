@@ -62,3 +62,12 @@ def smoothing(sample_raw, n_targets):
         sample_avr = np.convolve(sample, w, mode='same')
         avr_data.append(sample_avr)
     return avr_data
+
+
+def smoothing_damy(sample_raw, n_targets):
+    #(1024, n_targets)
+    avr_data = []
+    for i in range(n_targets):
+        sample = sample_raw[:, i]
+        avr_data.append(sample)
+    return avr_data

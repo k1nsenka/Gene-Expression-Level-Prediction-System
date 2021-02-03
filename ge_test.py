@@ -279,11 +279,11 @@ def ge_test_peason_raw_fun(data, n_device, batchsize, n_targets, model_path):
                     f.write('data{}:squeez\n'.format(count))
                 t = torch.squeeze(test_out[i])
                 o = torch.squeeze(out[i])
-                s_t = t
-                s_o = o
+                s_t = ge_loss.smoothing_damy(t, n_targets)
+                s_o = ge_loss.smoothing_damy(o, n_targets)
                 #ピアソン相関の計算(n_targets)
-                s_t = torch.tensor(s_t)
-                s_o = torch.tensor(s_o)
+                s_t = torch.stack(s_t)
+                s_o = torch.stack(s_o)
                 with open('pearson_test_log.txt', 'a') as f:
                     f.write('data{}:pearson\n'.format(count))
                 pearson = ge_loss.pearsonR(s_o, s_t, n_targets)
@@ -292,7 +292,7 @@ def ge_test_peason_raw_fun(data, n_device, batchsize, n_targets, model_path):
             with open('pearson_test_log.txt', 'a') as f:
                 f.write('data{}:pearson csv write\n'.format(count))
             print(len(test_score))
-            with open('./smoothing/pearsonr.csv', 'a') as fp :
+            with open('pearsonr.csv', 'a') as fp :
                 writer = csv.writer(fp)
                 writer.writerows(test_score)
             avr_test_loss = np.average(test_loss)
